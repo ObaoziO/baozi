@@ -1,4 +1,7 @@
 body {
+  font-family: Georgia, Arial;
+  background-color: #000;
+  color: #FFF;
 
 }
 ul {
@@ -6,7 +9,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background: green;
+  background: #000;
 }
 li {
   float: left;
@@ -15,16 +18,17 @@ li a {
   display: block;
   color: white;
   text-align: center;
-  width: 100px;
-  padding: 5% 0%;
+  width: 120px;
+  padding: 15px 5px;
   text-decoration: none;
   /*background: red;*/
 }
 li a:hover:not(.active) {
-  /*background-color: #111;*/
-  background-color: pink;
+  background-color: #008000;
+  border: 1px solid #4CAF50;
 }
 .active {
-  /*background-color: #4caf50;*/
-  background-color: orange;
+  /*background-color: #FFF;*/
+  color: #4CAF50;
+  border: 1px solid #4CAF50;
 }
