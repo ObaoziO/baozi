@@ -2,11 +2,11 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>baozi</title>
+  <title>Resume</title>
   <link rel="stylesheet" href="css/baozi.css">
 </head>
 <body>
-  <a href="resume.html"> Resume </a>
-  <h1>Welcome!</h1>
+  <?php include 'header.php'; ?>
+  <h1> Resume </h1>
 </body>
 </html>
