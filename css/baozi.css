@@ -1,10 +1,15 @@
 body {
   font-family: Georgia, Arial;
+  font-size: 16pt;
   background-color: #000;
   color: #FFF;
-
 }
-ul {
+/********************************
+*     START: Navigation Bar     *
+*********************************/
+
+/******* START: List Menu *******/
+/*ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -21,14 +26,80 @@ li a {
   width: 120px;
   padding: 15px 5px;
   text-decoration: none;
-  /*background: red;*/
 }
 li a:hover:not(.active) {
   background-color: #008000;
   border: 1px solid #4CAF50;
+}*/
+/******** END: List Menu ********/
+
+/***** START: Dropdown Menu *****/
+.dropbtn {
+  font-family: Georgia, Arial;
+  font-size: 20pt;
+  background-color: #000;
+  color: white;
+  min-width: 50px;
+  padding: 15px 5px;
+  border: none;
+  border: 1px solid #4CAF50;
+  border-radius: 10px 10px 10px 0;
+  cursor: pointer;
 }
-.active {
+.dropbtn a {
+  border: none;
+  text-decoration: none;
+}
+.dropdown {
+  position:relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 150px;
+  background-color: #000;
+}
+.dropdown-content a {
+    color: #FFF;
+    padding: 12px 16px;
+    border: 1px solid #000;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {
+  /*background-color: #008000;*/
+  border: 1px solid #4CAF50;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown:hover .dropbtn {
+  background-color: #008000;
+  border: 1px solid #4CAF50;
+}
+.dropdown:hover .dropbtn a {
+  color: #FFF;
+  text-decoration: none;
+}
+/****** END: Dropdown Menu ******/
+
+.active { /* Indicates the current page user is on */
   /*background-color: #FFF;*/
   color: #4CAF50;
   border: 1px solid #4CAF50;
+  border-color: red;
+}
+
+/********************************
+*      END: Navigation Bar      *
+*********************************/
+
+a { /* General link properties */
+  color: #4CAF50;
+  text-decoration: none;
+}
+a:hover {
+  color: #FFF;
+  text-decoration: none;
 }

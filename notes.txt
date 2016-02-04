@@ -1,0 +1,8 @@
+PHP index page not supported by GitHub Pages:
+<?php include 'header.php'; ?> <!-- need index.html for GitHub Pages -->
+
+List Menu:
+<ul>
+  <li><a class="active" href="index.html"> baozi </a></li>
+  <li><a href="resume.html"> Resume </a></li>
+</ul>
