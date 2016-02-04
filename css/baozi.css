@@ -4,6 +4,12 @@ body {
   background-color: #000;
   color: #FFF;
 }
+header {
+  width: 90%;
+  margin: auto;
+  padding: 2%;
+  border-bottom: 1px solid #4CAF50;
+}
 #content {
   width: 90%;
   margin: auto;
