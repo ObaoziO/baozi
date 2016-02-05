@@ -21,10 +21,23 @@ header {
 .icon {
   font-size: 25pt;
   text-align: center;
-  padding: 2% 4% 0 4%;
+  padding: 3% 4% 0 4%;
   /*border: 1px solid #4CAF50;*/
 }
-
+a { /* General link properties */
+  color: #4CAF50;
+  text-decoration: none;
+}
+a:hover {
+  color: #E6E6E6;
+  text-decoration: none;
+}
+.icon a {
+  color: #E6E6E6;
+}
+.icon a:hover {
+  color: #4CAF50;
+}
 /********************************
 *     START: Navigation Bar     *
 *********************************/
@@ -42,7 +55,7 @@ li {
 }
 li a {
   display: block;
-  color: white;
+  color: #E6E6E6;
   text-align: center;
   width: 120px;
   padding: 15px 5px;
@@ -59,7 +72,7 @@ li a:hover:not(.active) {
   font-family: Georgia, Arial;
   font-size: 20pt;
   background-color: #000;
-  color: white;
+  color: #E6E6E6;
   min-width: 50px;
   padding: 15px 5px;
   border: none;
@@ -98,6 +111,7 @@ li a:hover:not(.active) {
 .dropdown:hover .dropbtn {
   background-color: #008000;
   border: 1px solid #4CAF50;
+  color: #000;
 }
 .dropdown:hover .dropbtn a {
   color: #E6E6E6;
@@ -113,12 +127,3 @@ li a:hover:not(.active) {
 /********************************
 *      END: Navigation Bar      *
 *********************************/
-
-a { /* General link properties */
-  color: #4CAF50;
-  text-decoration: none;
-}
-a:hover {
-  color: #E6E6E6;
-  text-decoration: none;
-}
