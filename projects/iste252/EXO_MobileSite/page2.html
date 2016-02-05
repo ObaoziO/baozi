@@ -34,13 +34,13 @@
       var sel = localStorage.getItem("selected");
       for(i = 0; i < inventory.length; i++) {
         if (sel == inventory[i].exoNum){
-          out = "<div class='listItem'>" +
-                "<img class='pic' src=img/" + inventory[i].image +".png />" +
-                "<br><span class='styleme'>Stage Name:&nbsp;</span>" + inventory[i].stageName +
-                "<br><span class='styleme'>Superpower:&nbsp;</span>" + inventory[i].superPower +
-                "<br><span class='styleme'>Birthday:&nbsp;</span>" + inventory[i].birthday +
-                "<br><span class='styleme'>Height:&nbsp;</span>" + inventory[i].height + "&nbspcm" +
-                "<br><span class='styleme'>Description:&nbsp;</span>" + inventory[i].description +
+          out = "<div class='listItem'><p class='fullName'>" + inventory[i].fullName +
+                "</p><img class='pic' src=img/" + inventory[i].image +".png />" +
+                "<br><span class='styleMe'>Stage Name:&nbsp;</span>" + inventory[i].stageName +
+                "<br><span class='styleMe'>Superpower:&nbsp;</span>" + inventory[i].superPower +
+                "<br><span class='styleMe'>Birthday:&nbsp;</span>" + inventory[i].birthday +
+                "<br><span class='styleMe'>Height:&nbsp;</span>" + inventory[i].height + "&nbspcm" +
+                "<br><span class='styleMe'>Description:&nbsp;</span>" + inventory[i].description +
                 "</div>";
         }
     }
