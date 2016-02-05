@@ -1,5 +1,5 @@
 # baozi
-An about me (Yuqing Guo) page. Includes the information such as my resume and projects I have done.
+An about me, Yuqing (Jeanie) Guo page. Includes the information such as my resume and projects I have done.
 
 ## GitHub Pages
 ###Site Home Page: baozi
