@@ -8,14 +8,14 @@ http://obaozio.github.io/baozi/index.html
 ###EXO (Mobile Site)
 http://obaozio.github.io/baozi/projects/iste252/EXO_MobileSite/index.html
 
-#Data Sources
+##Data Sources
 Links to sources used for the mobile site data.
 
-##EXO Profile - Miss Kpop
+###EXO Profile - Miss Kpop
 http://misskpop.weebly.com/exo-profile.html
 
-##Members profile | exoplanet
+###Members profile | exoplanet
 https://onexoplanet.wordpress.com/profiles/
 
-##EXO Members and Profile - KPOP Color Coded Lyrics
+###EXO Members and Profile - KPOP Color Coded Lyrics
 https://kpopcolorcodedlyrics.wordpress.com/exo-members-and-profiles/
