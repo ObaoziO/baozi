@@ -1,0 +1,66 @@
+body {
+  font-family: Georgia, Arial;
+  font-size: 12pt;
+  background-image: url("../img/exo_black.png");
+  color: #E6E6E6;
+}
+.content {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.exoHome, .listItem {
+  background-color: #000;
+  border: 2px solid #E6E6E6;
+  padding: 10px;
+  width: 100%;
+  margin: 5px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.hpBtn, .upBtn, .prevBtn, .nextBtn {
+  background-color: #000;
+  width: 50px;
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid #E5E600;
+  border-radius: 100px;
+}
+.hpBtn { /* Button for navigating to the home page */
+  background-image: url("../img/navButton/exoLogoHomeWhite_tn.png");
+}
+.upBtn { /* Button for navigating to the top of the page */
+  background-image: url("../img/navButton/exoLogoUpWhite_tn.png");
+}
+.prevBtn { /* Button for navigating to the previous page */
+  background-image: url("../img/navButton/exoLogoLeftWhite_tn.png");
+}
+.nextBtn { /* Button for navigating to the next page */
+  background-image: url("../img/navButton/exoLogoRightWhite_tn.png");
+}
+../img { /* centering the images */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.exo, .stageName, .exoNum {
+  /*background: white;*/
+  color: #E6E6E6; /* #45AA47 */
+  font-weight: bold;
+  font-size: 2em;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+.pic {
+  padding: 10px;
+  width: 90%;
+  /*background-image: url("../img/exo.jpg");*/
+  background: #E6E6E6;
+  background-size: cover;
+}
+a {
+  text-decoration: none;
+}

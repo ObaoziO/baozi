@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EXO</title>
+    <link rel="stylesheet" type="text/css" href="css/exo.css">
+    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter|Pompiere' rel='stylesheet' type='text/css'>
+  </head>
+<body>
+  <div class="content">
+    <a href="index.html">
+      <div class="hpBtn"></div>
+    </a>
+    <div id="id01"></div>
+    <a href="page1.html">
+      <div class="prevBtn"></div>
+    </a>
+  </div>
+  <script>
+    var xmlhttp = new XMLHttpRequest();
+    var url = "json/inventory.json";
+    xmlhttp.onreadystatechange = function() {
+      if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+        var myArr = JSON.parse(xmlhttp.responseText);
+        myFunction(myArr.inventory);
+      }
+    }
+    xmlhttp.open("GET", url, true);
+    xmlhttp.send();
+    function myFunction(inventory) {
+      var out = "";
+      var i;
+      var sel = localStorage.getItem("selected");
+      for(i = 0; i < inventory.length; i++) {
+        if (sel == inventory[i].exoNum){
+          out = "<div class='listItem'>" +
+                "<img src=img/" + inventory[i].image +".png />" +
+                "<br><span class='styleme'>Stage Name:&nbsp;</span>" + inventory[i].stageName +
+                "<br><span class='styleme'>Superpower:&nbsp;</span>" + inventory[i].superPower +
+                "<br><span class='styleme'>Birthday:&nbsp;</span>" + inventory[i].birthday +
+                "<br><span class='styleme'>Height:&nbsp;</span>" + inventory[i].height + "&nbspcm" +
+                "<br><span class='styleme'>Description:&nbsp;</span>" + inventory[i].description +
+                "</div>";
+        }
+    }
+      document.getElementById("id01").innerHTML = out;
+    }
+  </script>
+</body>
+</html>

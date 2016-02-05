@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EXO</title>
+    <link rel="stylesheet" type="text/css" href="css/exo.css">
+    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter|Pompiere' rel='stylesheet' type='text/css'>
+    <script>
+      // Check browser support
+      function saveSelection(sel) {
+        if (typeof(Storage) !== 'undefined') {
+          // Store
+          localStorage.setItem('selected', sel);
+          window.open('page2.html','_self')
+        }else {
+          // Use cookies
+        }
+      }
+    </script>
+  </head>
+<body>
+  <div class="content">
+    <a href="index.html">
+      <div class="hpBtn"></div>
+    </a>
+    <div id="id01"></div>
+    <a href="page1.html">
+      <div class="upBtn"></div>
+    </a>
+  </div>
+  <script>
+  var xmlhttp = new XMLHttpRequest();
+  var url = "json/inventory.json";
+  xmlhttp.onreadystatechange = function() {
+      if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+          var myArr = JSON.parse(xmlhttp.responseText);
+          myFunction(myArr.inventory);
+      }
+  };
+  xmlhttp.open("GET", url, true);
+  xmlhttp.send();
+  function myFunction(inventory) {
+      var out = "";
+      var i;
+      for(i = 0; i < inventory.length; i++) {
+          out +=  "<div class='listItem'" +
+                  "onclick=saveSelection(" + inventory[i].exoNum + ");>" +
+                  "<p class='stageName'>"+ inventory[i].stageName +
+                  "</p><img class='pic' src=img/" + inventory[i].image +
+                  ".png /></a><p class='exoNum'>" + inventory[i].exoNum + "</p></div>";
+              }
+      document.getElementById("id01").innerHTML = out;
+  }
+  </script>
+
+</body>
+</html>
