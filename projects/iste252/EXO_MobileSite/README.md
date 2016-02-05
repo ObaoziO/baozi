@@ -9,7 +9,7 @@ http://obaozio.github.io/baozi/index.html
 http://obaozio.github.io/baozi/projects/iste252/EXO_MobileSite/index.html
 
 ##Data Sources
-Links to sources used for the mobile site data.
+Links to sources used in the mobile site data.
 
 ###EXO Profile - Miss Kpop
 http://misskpop.weebly.com/exo-profile.html
