@@ -10,11 +10,21 @@ header {
   padding: 2%;
   border-bottom: 1px solid #4CAF50;
 }
+.menuContainer {
+  display: flex;
+}
 #content {
   width: 90%;
   margin: auto;
   padding: 3%;
 }
+.icon {
+  font-size: 25pt;
+  text-align: center;
+  padding: 2% 4% 0 4%;
+  /*border: 1px solid #4CAF50;*/
+}
+
 /********************************
 *     START: Navigation Bar     *
 *********************************/
