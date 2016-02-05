@@ -40,7 +40,7 @@ body {
 .nextBtn { /* Button for navigating to the next page */
   background-image: url("../img/navButton/exoLogoRightWhite_tn.png");
 }
-../img { /* centering the images */
+img { /* centering the images */
   display: block;
   margin-left: auto;
   margin-right: auto;
