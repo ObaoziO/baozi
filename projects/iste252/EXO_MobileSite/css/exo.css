@@ -4,8 +4,7 @@ body {
   font-size: 12pt;
   background-image: url("../img/exo_black.png");
   color: #E6E6E6;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0;
 }
 .content {
   width: 80%;
@@ -22,7 +21,7 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
-.hpBtn, .upBtn, .prevBtn, .nextBtn {
+.hpBtn, .nextBtn, .upBtn, .prevBtn {
   background-color: #000;
   width: 50px;
   height: 50px;
@@ -31,17 +30,23 @@ body {
   border: 2px solid #E5E600;
   border-radius: 100px;
 }
+/*div.hpBtn, div.nextBtn, div.upBtn, div.prevBtn {
+  width: 50px;
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}*/
 .hpBtn { /* Button for navigating to the home page */
-  background-image: url("../img/navButton/exoLogoHomeWhite_tn.png");
-}
-.upBtn { /* Button for navigating to the top of the page */
-  background-image: url("../img/navButton/exoLogoUpWhite_tn.png");
-}
-.prevBtn { /* Button for navigating to the previous page */
-  background-image: url("../img/navButton/exoLogoLeftWhite_tn.png");
+  background-image: url("../img/navButton/exoLogoHomeYellow_tn.png");
 }
 .nextBtn { /* Button for navigating to the next page */
-  background-image: url("../img/navButton/exoLogoRightWhite_tn.png");
+  background-image: url("../img/navButton/exoLogoRightYellow_tn.png");
+}
+.upBtn { /* Button for navigating to the top of the page */
+  background-image: url("../img/navButton/exoLogoUpYellow_tn.png");
+}
+.prevBtn { /* Button for navigating to the previous page */
+  background-image: url("../img/navButton/exoLogoLeftYellow_tn.png");
 }
 img { /* centering the images */
   display: block;
@@ -61,6 +66,10 @@ img { /* centering the images */
   background: #E6E6E6;
   background-size: cover;
   padding: 10px;
+}
+.styleMe {
+  font-weight: bold;
+  color: #E6E6E6; /* E5E600 */
 }
 a {
   text-decoration: none;
