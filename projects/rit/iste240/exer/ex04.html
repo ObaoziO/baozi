@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- ISTE240: Exercise 04 -->
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="assets/css/ex04.css">
+		<title>Exercise 04</title>
+	</head>
+	<body>
+		
+		<div id="border">	
+			<div id="container">
+				<img src="assets/image/crazyHouses.png" alt="Small Town Logo" height="76" width="150">
+			<nav>
+				<a href=" ">Home</a> |
+				<a href=" ">Activities</a> |
+				<a href=" ">Food</a> |
+				<a href=" ">Rest</a> |
+				<a href=" ">People</a> |
+				<a href=" ">Feedback</a> 
+				<a href=" "> ... </a>
+			</nav>
+			</div>
+			<div id="header"><h2>Please tell us about your visit:</h2><hr></div>
+				<div id="content">			
+					<p>How many in your group? 
+					<input type="number" min="0" max="10" step="1" value="1"></p>
+					<p>When did you visit? <input type="date"></p>						
+					<form>	
+						<fieldset>
+							<legend>Favorite Place</legend> <!-- radio buttons -->
+							<input type="radio" name="place" value="baseball field" checked="">Baseball Field
+							<br/>
+							<input type="radio" name="place" value="museum">Museum
+							<br/>
+							<input type="radio" name="place" value="restaurant">Luigis Italian Restaurant
+							<br/>
+							<input type="radio" name="place" value="hotel">Mom's Hotel
+							<br/>
+							<input type="radio" name="place" value="hostel">The Youth Hostel
+						</fieldset>		
+						
+						<p>Overall rate your visit to our small town:<p>
+						
+						<!-- input tag with type of ‘range’ -->
+						<p>0<input type="range" name="rating" min="0" max="10">10<p>
+						
+						<!-- submit button -->
+						<input type="submit" value="Submit" style="font-size:1em; color:white; background-color:#0099CC; border: 2px solid black;padding: 3px 8px;">
+					</form>		
+				</div>
+			</div>
+	</body>
+</html>

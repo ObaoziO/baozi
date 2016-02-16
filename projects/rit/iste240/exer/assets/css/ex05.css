@@ -1,0 +1,21 @@
+/* Yuqing Guo ISTE 240: Exercise 05 */
+
+
+body{
+	font-family: Georgia, Arial, "Times New Roman", sans-serif;
+    font-size: 12pt;
+    background-color: #EBF5FF;
+}
+
+h4{
+	font-weight: bold;
+}
+
+#content{
+    border: 4px solid #2E8AE6;
+    border-radius: 4px;
+	margin-left: 15%;
+	margin-right: 15%;
+    padding: 0 1%;
+	background-color: #FDFFFB;
+}

@@ -1,0 +1,79 @@
+/***
+  * Yuqing Guo
+  * ISTE240 Exercise - 02 CSS Positioning 
+  **/
+
+body{ /* set font family  */ 
+	font-family: Georgia, Arial, "Times New Roman", sans-serif;
+}
+
+/* set asterisk properties */
+h1{
+    color: #99CC33;
+	font-size: 120px;
+    text-shadow: 5px 3px yellow;
+    margin-top: 45px;
+    margin-left: 40px;
+}
+
+/* set text properties */
+h2{
+    color: #FFFFFF;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    position: relative; 
+    margin-top: -160px;
+}
+
+/* set sidebar background image on repeat */ 
+#sidebar{
+	background-image:url('../image/side2.jpg');
+  	background-repeat:repeat-y;
+}
+
+/* keeps the boxes in position */
+#wrapper {
+ 	margin-left: 100px;
+    display: inline-block;
+}
+
+/* set box location, size, color */
+.content{
+    background-color: #000;
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+    float: left;
+    position: relative;
+    margin: 2% 0 2% 15%;
+    /* set the transitions here */
+    -moz-transition: all 1s; /* Firefox browser need this */
+    -webkit-transition: all 1s; /* For Safari, Chrome, Opera*/
+    transition: all 5s 10s 3s;
+    cursor: pointer;
+}
+
+/* change background color when mouse hover over */
+.content:hover { 
+    background-color: #006600;   
+}
+
+/********** set media query **********/
+@media screen and (max-width: 500px){
+  #wrapper {
+        margin-left: 23%;
+    }
+}
+
+@media screen and (max-width: 350px){
+  	#sidebar {
+        background-image: none;
+    }
+    .content {
+        margin-left: 0px;   
+    }
+    #wrapper {
+        margin: 0px;   
+    }
+}

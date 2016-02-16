@@ -1,0 +1,249 @@
+body{
+	background-color: #EEEEEE; /* #FFAD33 */
+	font-family: Georgia, "Times New Roman", sans-serif, verdana;
+	color: #000000;
+	margin: 0px;
+	padding: 0px;
+}
+h1{
+	color: #934A00;
+}
+h2{
+	color: #934A00;
+}
+
+.smalltext{ 
+	font-size: 12px;
+}
+
+ul.circle{
+	list-style-type: circle;
+	padding-bottom: 1em;
+}
+ul.circle li{
+	padding-bottom: 1px;
+	margin-bottom: 5px;
+}
+ul#videoLinks{
+	list-style-type: none;
+}
+
+
+.container{
+	/*width:90%;*/
+	margin: 0;
+	padding: 0;
+}
+#header{
+	background: #FFAD33;
+	padding:30px 0;
+}
+#title{
+	margin-right: 0px;	
+}
+#logo{
+	margin: 0px 10px 0px 20px;
+	float:left;
+}
+/*#banner{
+	margin-left:15px;	
+}*/
+#content{
+	margin: 0;
+	padding: 0;
+	float: left;
+	width: 100%;
+	background-color: #FFF7EB;
+}
+#extras{
+	width:20%;
+	float:right;
+	border-radius: 10px;
+	background-color: #FFFAF3;
+	padding: 20px 10px 20px 10px;	
+	margin: 0px 30px 20px 10px;
+}
+
+#rollover { 
+	background-image: url("../media/cat.png"); 
+	width: 200px; 
+	height: 200px; 
+	display: block; 
+}
+#rollover:hover { 
+	background-image: url("../media/dog.png"); 
+}
+
+/* need to be class (.) not id (#) 
+ since it's used more than onece in a html file*/
+.main{
+	width: 68%;
+	background-color: #FFFEFB; /*FFFEFB*/
+	padding:1em 15px 10px 2em;
+	margin-left: 2em;
+	margin-right: 10px;
+	margin-bottom: 10px; /*break each div into sections*/
+}
+
+/*************************************
+ * for >> videos with lyrics << page */
+.videos{ /* where .main is */
+	width: 90%;
+	background-color: #FFFEFB;
+	padding:1px 15px 10px 15px;
+	margin: 0 2em 20px 2em;
+	float: left;
+}
+.videos2{ /* where .main is, supposedly */
+	width: 65%;
+	float: left;
+}
+.videos2{
+	text-align: center;
+}
+.videocenter{ /* where .main is, supposedly */
+	width: 100%;
+	float: left;
+}
+.videocenter{
+	text-align: center;
+}
+.sideNotes{ /* usually next to .videos */
+	width: 30%;
+	float: right;
+	border: 1px dashed #934A00;
+	padding: 0 15px 10px 15px;
+	margin-top: 3em;
+	margin-right: 1em;
+}
+.lyrics{ /* where #extras is*/
+	font-size: 14px;
+	width:33%;
+	float:left;
+	padding: 0 10px;
+}
+.lyricsSmaller{ /* smaller width */
+	font-size: 12px;
+	width:23%;
+	float:left;
+	padding: 0 10px;
+}
+.lyricSource{
+	float:left;
+	width: 100%;
+	font-size: 12px;
+	margin-top: 2px;
+}
+.lyricSource{
+	text-align: center;
+}
+/*************************************/
+
+#footer{
+	clear:both;
+	width: 100%;
+	background:#E0E0E0;
+	padding: 5px 0px;
+}
+
+.center{ /* mainly used for the h3 page titles */
+	text-align: center;
+}
+.floatLeft{
+	float: left;
+}
+
+
+/********   tables   ********/
+.title{
+	color: #934A00;
+	font-weight: bold;
+	background-color:#FFF7EB;
+}
+.subtitle{
+	color: #000;
+	font-weight: bold;
+	background-color:#FFF7EB;
+}
+
+table.toneMarks{
+	text-align: center;
+	border: 2px solid #934A00; 
+	border-collapse: collapse;;
+}
+table.toneMarks tr, th, td{
+	border: 2px solid #934A00;
+	padding: 5px;
+}
+table.toneMarks th{
+	background-color: #934A00;
+	color: #FFFAF3;
+}
+
+table.toneMarks a{
+	color: #FFFAF3;
+}
+#tdColor{
+	font-weight: bold;
+	background-color: #FFFFFF;
+	color:#0A290A;
+}
+
+
+table#charBasic{
+	border: 2px solid #934A00; 
+	border-collapse: collapse;;
+}
+table#charBasic th{
+	background-color: #934A00;
+	color: #FFFAF3;
+}
+table#charBasic tr, th, td{
+	border: 2px solid #934A00;
+	padding: 5px 20px 5px 20px;
+}
+/******   end tables   ******/
+
+
+
+a:link{
+	color: #CF7B14;
+	text-decoration: none;
+}
+a:visited{
+	color: #CF7B14;
+}
+a:hover{
+	color: #29A329;
+}
+a:active{
+	color: #CF7B14;
+}
+
+/* link for head/title within references and sources */
+.head a{
+	color: #000;
+}
+.head a:hover{
+	color: #CF7B14;
+}
+/********************/
+
+ul#footerLink{
+	color: #934A00;
+	list-style-type: none;
+}
+ul#footerLink li{
+	display: inline;
+}
+ul#footerLink li a{
+	color: #934A00;
+	padding: 0em 1em;
+	text-decoration: none;
+}
+ul#footerLink li a:hover{
+	color: #29A329;
+}
+
+
+

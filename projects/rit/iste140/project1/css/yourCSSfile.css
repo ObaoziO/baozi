@@ -1,0 +1,141 @@
+body{
+	background-color: #F3F3F3;
+	font-family: "Times New Roman", Gregoria, Arial;
+	/*font-size: 14px;
+	border-bottom: 1px solid #5CAF5C;
+	border-radius: 0px 0px 10px 10px;*/
+	padding-bottom: 200px;
+	margin-top: 20px;
+}
+
+h1{
+	background-color: #5CAF5C;
+	color: #EFF7EF;
+	font-size: 30px;
+	font-weight: bold;
+	padding: 10px 10px 10px 10px;
+}
+
+h2{
+	color: #335C33;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+h3{
+	font-size: 15px;
+	font-weight: bold;
+}
+p{
+	text-align: left;
+}
+
+ul{
+	padding: 0px 0px 0px 20px;
+	list-style-type: circle;
+}
+
+/* Used in: Home Page */
+.border{
+	float:left;
+	background-color: white;
+	border: 1px solid #5CAF5C;
+	margin: 10px 20px 0px 0px;
+}
+/* Used in: Home Page */
+#image{
+	text-align: center;
+	padding: 5px 5px 0px 5px;
+	border-bottom: 1px solid #5CAF5C;
+}
+/* Used in: Home Page */
+#caption{
+	text-align: center;
+	font-family: "Times New Roman", Gregoria, Arial;
+	padding: 5px 5px 5px 5px;
+}
+
+/* Used in: All Pages */
+#overallBorder{
+	/*border: 1px solid #5CAF5C;
+	border-bottom: 0px;*/
+	border-radius: 20px 20px 10px 10px;
+	margin: 10px 100px 200px 30px;
+}
+
+/* Used in: All Pages */
+.overallBorder{
+	/*border: 1px solid #5CAF5C;
+	border-bottom: 0px;*/
+	border-radius: 20px 20px 10px 10px;
+	margin: 10px 100px 200px 30px;
+}
+
+/* Used in: Home, Resume Page */
+.floatLeft{
+	float: left;
+	padding: 0px 0px 0px 0px;
+}
+
+/* Used in: Resume Page 
+ * adds left padding */
+.floatLeft2{
+	float: left;
+	padding: 0px 0px 0px 20em;
+}
+
+/* Used in: Education Page */
+.floatLeftB{
+	float: left;
+	width: 750px;
+	padding: 0px 0px 300px 0px;
+}
+
+/* Used in: Education Page 
+ * adds left padding 
+#floatLeftB2{
+	float: left;
+	width: 500px;
+	padding: 0px 0px 0px 20em;
+	background-color: blue;
+}
+
+/* Used in: Education Page */
+.floatRight{
+	float: right;
+	padding: 0px 100px 0px 20px;
+}
+#center{
+	text-align: center;
+}
+
+
+/* property for all links*/
+a{
+	font-family: Gregoria, "Times New Roman";
+	text-decoration: none;
+	border: 2px solid #335C33;
+	padding: 5px 5px 5px 5px;
+}
+
+/* unvisited link */
+a:link{
+	color: #29A329; /* dark green >> #335C33 <lighter green >> #29A329*/
+}
+
+/* unvisited link */
+a:active{
+	color: #CC99FF;
+}
+
+/* visisted link; having been clicked */
+a:visited{
+	color: #335C33;
+}
+
+/* mouse over link; when rolled over */
+a:hover{
+	color: #66CCFF;
+	text-decoration: underline;;
+}
+

@@ -1,0 +1,102 @@
+/* Yuqing Guo 1/29/2015 ISTE240 Home Page CSS */
+
+body {
+    background-image: url("../image/exo.jpg");
+    font-family: Georgia, Arial, "Times New Roman", sans-serif, verdana;
+}
+h2{ /* header of the page: ISTE.240 Web and Mobile II */
+	background-color: #CC99FF;
+	color: #FFF;
+	text-align: center;
+	padding: 5px;
+}
+
+
+#content{ /* all content within the body */
+	width: 90%;
+	background-color: #FFF;
+	border-radius: 2px;
+	margin: 0 5%;
+	padding: 5px;
+	opacity: 0.95;
+}
+#middle{ /* contents between the two purple streaks */
+	margin: 0 20px 0 20px;
+}
+.image{ /* an image of me */
+	width: 200px;
+	height: 267px;
+	background-image: url("../image/beach_psd.jpg");
+	float: left;
+	margin-right: 20px;
+	border-radius: 120px;
+}
+.image:hover{
+	width: 200px;
+	height: 267px;
+	background-image: url("../image/exohover.jpg");
+}
+#aboutme{
+
+}
+#projects{ /* header and links for projects */
+	clear: both;
+	width: 100%;
+	padding-top: 10px;
+}
+.green{ /* color for projects header*/
+	color: #5CAF5C;
+}
+#footer{ /* purple streak at the end of the page */
+	width: 100%;
+	background-color: #CC99FF;
+	color: #FFF;
+	padding: 20px 0 20px 0;
+}
+
+
+ul.none{
+	list-style-type: none;
+	padding-left: 1.5em;
+}
+
+
+/***   css for links   ***/
+a{
+	color: #FF6699;
+	text-decoration: none;
+}
+a:visited{
+	color: #5CAF5C;
+}
+a:hover{
+	color: #66CCFF;
+}
+a:active{
+	color: #FF6699;
+}
+a#emailme{color: #5CAF5C;}
+
+
+/***  footer ul  ***/
+ul#footerLink{
+	color: #FFF;
+	list-style-type: none;
+	text-align: center;
+}
+ul#footerLink li{
+	display: inline;
+}
+ul#footerLink li a{
+	color: #FFF;
+	padding: 0 .8%;
+	text-decoration: none;
+}
+ul#footerLink li a:hover{
+	text-decoration: underline;
+}
+/**************************/
+
+
+
+

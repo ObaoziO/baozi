@@ -1,0 +1,73 @@
+/**************************
+ *    navigation style    */
+
+
+.navlist {
+	display: block;
+}
+.navlist ul{
+	background-color: #FFAD33;
+	color: #CF7B14;
+	list-style-type: none;
+}
+.navlist ul .top{
+	float: left;
+	width: 100%;
+}
+.navlist li {
+	color: #934A00;
+	background-color: #FFAD33;
+	text-decoration: none;
+	float: left;
+} 
+.navlist li a {
+  	color: #934A00;
+  	text-decoration: none;
+	display: block;
+	padding: 0.5em 1em 0em 1em;
+}
+.navlist li:hover {
+	background-color: #CF7B14;
+}
+.navlist ul li a:hover {
+	background-color: #FFFAF3;
+}
+.navlist ul li ul {
+	background: #FFAD33;
+	visibility: hidden;
+	float: left;
+	padding: 0;
+	position: absolute;
+  	border: 1px solid #934A00;
+	list-style-type: none;
+}
+.navlist ul li:hover > ul{
+  	visibility: visible;
+	width: auto;
+}
+.navlist ul li ul li {
+	clear: both;
+  	width: 100%;
+}
+.navlist ul li ul li:hover {
+	background: #CF7B14;
+}
+.navlist ul li ul li ul li:hover {
+	background: #CF7B14;
+}
+
+
+/* "Where am I now?" style */
+.navlist li a#current{
+	background-color: #934A00;
+	color: #FFFAF3;
+}
+.navlist li a#currentDrop{
+	background-color: #CF7B14;
+	color: #FFFAF3;
+}
+
+
+
+/*  end navigation style  *
+ **************************/

@@ -1,0 +1,76 @@
+@media screen and (max-width: 480px) {
+	body {
+		background-color: #FCFCFC;
+		color: #444444;
+		font-family: Arial;
+		/* font-size: 14px;
+		border: 1px solid gray; */
+		padding-left: 1em;
+		padding-right: 1em;
+	}
+
+	h1 {
+		background-color: #5CAF5C;
+		color: #EFF7EF;  /* dark green >> #335C33 */
+		font-size: 40px;
+		font-weight:bold;
+		text-align: center;
+		padding: 10px 0px 10px 0px;
+	}
+
+	h2 {
+		font-weight: bold;
+		font-size: 20px;
+		text-decoration: underline;
+	}
+
+	/* property for all links */
+	a {
+		font-family: Gregoria, "Times New Roman";
+		text-decoration: none;
+	}
+
+	/* unvisited link */
+	a:link {
+		color: #29A329;
+	}
+
+	/* selected link; when being clicked */
+	a:active {
+		color: #CC99FF;
+	}
+
+	/* visited link; having been clicked */
+	a:visited {
+		/* color: #7FC87F;  // lighter green - a bit too light/bright */
+		color: #CC99FF;
+	}
+
+	/* mouse over link; when rolled over */
+	a:hover {
+		color: #66CCFF;
+		text-decoration: underline;
+	}
+
+	#logo {
+		display: none; 
+	}
+
+	#content {
+		margin-left: 0px; 
+	}
+
+	/* border >> includes the image and the caption */
+	#border {
+		float:right;
+	}
+
+	#image {
+		display: none;
+	}
+
+	#caption {
+		display: none;
+	}
+
+}

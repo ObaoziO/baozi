@@ -1,0 +1,11 @@
+
+<!--#include file="header.shtml"-->
+
+	<h1>Server-side Include Demonstration</h1>
+	<h2>The last time this file was updated was:</h2>
+	<!--#flastmod file="SSI_startup.shtml"-->
+	<hr />
+	<h2>The Current Environment Is:</h2>
+	<!--#echo var="DATE_LOCAL"-->
+	
+<!--#include file="footer.html"-->

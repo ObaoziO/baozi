@@ -1,0 +1,90 @@
+/***
+  * Yuqing Guo
+  * ISTE240: Exercise 04
+  **/
+
+body{ /* set property for body,font family */ 
+	font-family: "Comic Sans MS", Georgia, Arial, "Times New Roman", sans-serif;
+    font-size: 12pt;
+    color: #0099CC;
+    background-color:#EEE;
+    font-weight: bold;
+    text-align: center;
+}
+
+h2{ /* set property for h1 tag */
+    font-style: italic;
+    font-size: 20pt;
+    color: #336699;
+}
+
+nav{ /* set property for nav tag */
+    background-color: white;
+    color: black;
+    width: 70%;
+    float: left;
+    border: 2px solid black;
+    margin-left: 2%;
+    margin-top: 5%;
+    padding: 5px;
+}
+
+#border{/* a div containing everthing inside the body */
+    background-color: #E9E9E9;
+    width: 80%;
+    height: auto;
+    border: 2px solid #888;
+    border-radius: 5px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#container{ /* set property for container div */
+    float: left;
+    width: 100%;
+}
+
+#header{ /* set property for header div */
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 15%;
+}
+
+#content{ /* set property for content div */
+    /*position: absolute;*/
+    left: 10em;
+    top: 10em;
+    padding: 1%;
+    margin-left: 5%;
+}
+
+img{ /* set property for img tag */
+    float: left;
+    margin-left: 2%;
+    margin-top: 2%;
+}
+
+legend{ /* set property for legend */
+    color: black;
+}
+
+fieldset{ /* set property for fieldset */
+    width: 55%;
+    background-color: #E0E0E0;
+    text-align: left;
+    margin-left: 20%;
+}
+
+
+/** link properties **/
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    color: #1E90FF;
+}
+/*********************/
+
+
+

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>ICE 26: CSS Image Rollovers and Image Maps</title>
+		<style type="text/css">
+			body {  
+				background-color: #000000;
+				color: #29A329;
+				margin-left: 20px;
+			}
+			#rollover1 { 
+				background-image: url("whiteCat.jpg"); 
+				width: 300px; 
+				height: 300px; 
+				display: block; 
+			}
+			#rollover1:hover { 
+				background-image: url("catBread.jpg"); 
+			}
+			.cat{
+				margin-left: 100px;
+			}
+			a{
+				color: #FFFFFF
+			}
+		</style>
+	</head>
+	<body>
+	<h1> Image Rollover </h1>
+	<div class="cat">
+		<a id="rollover1" href="http://www.viki.com" target="_blank">
+			<!--<img id="rollover1" src="whiteCat.jpg" height="300" width="300" alt="Whtie Cat" border="0" />-->
+		</a>
+	</div>
+	<h1> Image Map </h1>
+		<img src="images/101dot-PR.jpg" width="1280" height="853" id="n101dotPR" usemap="#m_101dotPR" alt="" />
+		<map name="m_101dotPR" id="m_101dotPR">
+			<area shape="poly" coords="243,766,123,683,380,549,490,610,291,813,398,853,549,686,453,656" href="https://www.google.com/" alt="" target="_blank" />
+			<area shape="rect" coords="335,280,571,526" href="http://www.dramafever.com/" alt="" target="_blank" />
+			<area shape="circle" coords="770,211,45" href="http://www.ixingji.com/f/miraclelist.html?appid=7" alt="" target="_blank" />
+		</map>
+
+	<h3>Image Source</h3>
+	<a href="https://newevolutiondesigns.com/50-free-hd-cat-wallpapers" target="_blank">White Cat</a><br/>
+	<a href="http://breadedcat.com/cat-breading-tutorial/" target="_blank">Cat Breading</a><br/>
+	<a href="http://www.deviantart.com/art/101dot-PR-497711019" target="_blank">101dot - PR</a>
+	</body>
+</html>

@@ -1,0 +1,447 @@
+/* Yuqing Guo 5/17/2015 ISTE.240.01 Individual Project Final Version CSS */
+
+body {
+	width: 100%;
+	background-color: #000;
+    font-family: "Skia", Helvetica, Arial, "Times New Roman", sans-serif, verdana;
+    font-size: 18px;
+	margin: auto;
+	color: #134949; 
+}
+
+h1{
+	font-family: "Bank Gothic", "Skia";
+	font-size: 50px;
+	color: #FFF;
+	position: relative;
+	top: 10%;
+}
+
+.scaption{ /* small font caption*/
+	font-size: 12px;
+	text-align: center;
+	clear: both;
+}
+
+.center{
+	text-align: center;
+}
+
+.left{
+	float: left;
+}
+
+.clear{
+	clear: both;
+}
+
+#wrapper{
+	background-color: #FFF;
+	width: 100%;
+	margin: auto;
+	clear: both;
+}
+
+/************ headers ************/
+
+#header{
+	height: 500px;
+	width:100%;
+	background: url("../image/homepage.jpg") no-repeat #000 center;
+	text-align: center;
+}
+
+#header2{ /* footer pages */
+	background-color: #33CCCC;
+	padding: 2% 0 0 0;
+	text-align: center;
+}
+
+/********** end headers **********/
+
+
+.headmap{ /* maps in the header */
+	margin-top: 10%;
+}
+
+#content{
+	width: 90%;
+	margin: auto;
+	clear: both;
+	padding: 2% 0 5% 0;
+}
+
+#containerBig{
+	width: 100%;
+	/*color: #134949; */
+	clear: both;
+}
+
+.container{
+	width: 96%;
+	clear: both;
+	padding: 3% 2% 3% 2%;
+}
+
+.text{
+	width: 55%;
+	padding: 1%;
+	float: left;
+}
+
+.textFirework{
+	width: 80%;
+	padding: 1% 2%;
+	clear: both;
+	margin: auto;
+	text-align: justify;
+}
+
+.textonly{ /* e.g. references and grading pages */
+	width: 100%;
+	padding: 1% 2%;
+	clear: both;
+}
+
+.video{
+	width: 40%;
+	padding: 1%;
+	float: left;
+	text-align: center;
+}
+
+.img{
+	width: 40%;
+	padding: 1%;
+	float: left;
+	text-align: center;
+}
+
+.imgs{
+	width: 100%;
+	clear: both;
+	text-align: center;
+	margin: auto;
+	padding: 2% 0 1% 0; 
+}
+
+
+/**********************/
+.imgRolloverJuly4thMap{ /* image rollover for 4th of July page - map & fireworks */
+	width: 214px;
+	height: 200px;
+	background-image: url("../image/maps/fireworks_map.png");
+	margin: auto;
+}
+
+.imgRolloverJuly4thMap:hover{
+	width: 214px;
+	height: 200px;
+	background-image: url("../image/fireworks02.png");
+}
+
+/********************/
+
+.imgRolloverJuly4thFireworks{ /* image rollover for 4th of July page - fireworks */
+	width: 300px;
+	height: 400px;
+	background-image: url("../image/fireworks12.jpg");
+	margin: 1%;
+	margin: auto;
+}
+
+.imgRolloverJuly4thFireworks:hover{
+	width: 300px;
+	height: 400px;
+	background-image: url("../image/fireworks10.jpg");
+}
+/**********************/
+
+
+ul.checklist{
+    list-style-type: none;
+}
+
+.checklist li:before{
+    content: '✔';   
+    margin-left: -1em; 
+    margin-right: 1em;
+}
+
+ul.arrowRight{
+    list-style-type: none;
+}
+
+.arrowRight li:before{
+    content: '→';   
+    margin-left: -1em; 
+    margin-right: 1em;
+}
+
+#footer{
+	background-color: #000;
+	color: #FFF;
+	/*width: 100%;*/
+	padding: 1% 0;
+	text-align: center;
+	clear:both;
+}
+
+
+/********* footer link *********/
+ul#footerLink li{
+	display: inline;
+}
+ul#footerLink li a{
+	color: #FFF;
+	padding: 0 1%;
+	text-decoration: none;
+}
+ul#footerLink li a:hover{
+	color: #FFF;
+}
+/******* END footer link *******/
+
+
+/********* general link *********/
+.links a:link{
+	color: #000;
+	text-decoration: none;
+}
+.links a:visited{
+	color: #000;
+}
+.links a:hover{
+	color: #70DBDB;
+}
+.links a:active{
+	color: #000;
+}
+/******* END general link *******/
+
+
+select[id=color]{ /* footer change background color form */
+    font-family: "Skia", Helvetica, Arial, "Times New Roman", sans-serif, verdana;
+    font-size: 16px;
+    background-color: #FFF;
+    color: #000;
+}
+
+input[type=button]{ /* footer change background color form */
+    font-family: "Skia", Helvetica, Arial, "Times New Roman", sans-serif, verdana;
+    font-size: 16px;
+    background-color: #FFF;
+    color: #000;
+}
+
+
+/*******************/
+/*  comments page  */
+/****** START ******/
+
+form div{
+	margin: 1em;
+}
+
+form div label{
+	float: left;
+	width: 10%;
+}
+
+.commentsform{
+	width: 90%;
+    margin: auto;
+}
+
+.comments{
+	width: 90%;
+    height: 500px;
+    margin: auto;
+    border: 2px solid #33CCCC;
+    padding: 2%;
+    overflow:scroll;
+}
+
+input[type=submit]{
+    font-family: "Skia", Helvetica, Arial, "Times New Roman", sans-serif, verdana;
+    font-size: 18px;
+    background-color: #000;
+    color: #FFF;
+    padding: 1%;
+}
+
+/******* END *******/
+/*  comments page  */
+/*******************/
+
+
+/********* navigation start *********/
+
+nav { 
+	width: 100%;
+	border-radius: 2px;
+}
+
+nav ul {
+	background: #33CCCC;
+	background: -moz-linear-gradient(top, #000 80%, #33CCCC 0%);
+	background: -webkit-linear-gradient(top, #33CCCC 20%, #000 0%);
+	padding: 0 0px;
+	list-style: none;
+	position: relative;
+	display: inline-table;
+	border-radius: 2px;
+}	
+
+nav ul ul {
+	background: #D5F1F1; 
+	padding: 0;
+	position: absolute; 
+	top: 100%;
+	display: none;
+	border-radius: 2px;
+}
+
+nav ul ul ul {
+	left: 100%; 
+	top: 0;
+	color: #FFF;
+	border-radius: 2px;
+}
+
+nav ul li {
+	float: left;
+}
+
+nav ul ul li {
+	float: none; 
+	border-top: 1px solid #33CCCC;
+	position: relative;
+}
+
+nav ul li a {
+	display: block; 
+	padding: 5px 20px;
+	color: #FFF;
+	text-decoration: none;
+}
+
+nav ul ul li a {
+	color: #FFF;
+	text-align: left;
+}
+
+nav ul li:hover > ul {
+	display: block;
+}
+
+nav ul li:hover {
+	background: #FFF;
+	background: -moz-linear-gradient(top, #FFF 0%, #33CCCC 100%);
+	background: -webkit-linear-gradient(top, #33CCCC 0%, #FFF 40%);
+	padding: 0 0px;
+}
+
+nav ul li:hover a {
+	color: #1F7A7A;
+}	
+
+nav ul ul li a:hover {
+	background: #70DBDB;
+}	
+
+nav ul:after {
+	content: ""; 
+	clear: both; 
+	display: block; 
+}
+
+/* "Where am I now?" style */
+nav li a#current{
+	background: #33CCCC;
+	background: -moz-linear-gradient(top, #FFF 80%, #33CCCC 0%);
+	background: -webkit-linear-gradient(top, #33CCCC 20%, #FFF 0%);
+	color: #1F7A7A;
+	font-weight: bold;
+}
+
+nav li a#currentDrop{
+	background-color: #1F7A7A;
+	color: #FFF;
+	font-weight: bold;
+}
+
+/******* end navigation *******/
+
+
+/********** set media query **********/
+
+/* All Mobile Sizes */
+@media only screen and (max-width: 767px) {
+	#header{
+		height: 300px;
+	}
+
+	h1{
+		font-size: 30px;
+		position: absolute;
+		top: 10%;
+		left: 25%;
+		right: 10%;
+	}
+
+	.text{
+		width: 90%;
+		padding: 0;
+		margin: 0;
+	}
+
+	.headmap{ /* maps in the header */
+		display: none;
+	}
+
+	nav { 
+		width: 10%;
+		text-align: left;
+	}
+	nav ul {
+		background: #000;
+	}
+
+	nav li a#current{
+		background: #FFF; /* 33CCCC, 70DBDB */
+		color: #1F7A7A;
+		font-weight: bold;
+	}
+}
+
+@media screen and (max-width: 500px){
+	#header{
+		height: 250px;
+	}
+
+	h1{
+		font-size: 20px;
+		position: absolute;
+		left: 40%;
+	}
+
+	.img{
+		display: none;
+	}
+
+	.imgs{
+		display: none;
+	}
+}
+
+@media screen and (max-width: 350px){
+  	
+
+	h1{
+		position: absolute;
+		left: 45%;
+	}
+
+}
+/********** end media query **********/

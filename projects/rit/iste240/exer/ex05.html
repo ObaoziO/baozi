@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- Yuqing GuoISTE240 Exercise 5 -->
+		<meta charset=utf-8 />
+		<script src="assets/js/ex05.js" type="text/javascript"></script>
+		<link rel="stylesheet" type="text/css" href="assets/css/ex05.css">
+		<title>Exercise 05</title>
+	</head> 
+<body onload="init();">
+	<div id="content">
+	<div>
+		<h4>JavaScript Exercise 5a </h4> 
+		<p id="text">This style of this paragraph will change when you click the button below.</p>
+	</div>
+	<div>
+		<button id="styleMe" onclick="jsStyle()">Change Style</button>
+	</div>
+
+	<hr>
+	
+	<h4>JavaScript Exercise 5b </h4> 
+	<form id="regForm">
+		First name: <input type="text" id="fname" value="Boo"><br>
+		Last name: <input type="text" id="lname" value="Radley"><br>
+		<input type="button" onclick="getFormValues();" value="Submit">
+	</form>
+
+	<hr>
+	
+	<h4>JavaScript Exercise 5c</h4> 
+	<form>
+		<select id="mySelect">
+			<option>Red</option>
+			<option>Green</option>
+			<option>Blue</option>
+			<option>Yellow</option>
+			<option>Orange</option>
+			<option>Purple</option>
+		</select>
+		<input type="button" onclick="getOptions()" value="Display the Options">
+	</form>
+
+	<hr>
+	
+	<div>
+		<h4>JavaScript Exercise 5d </h4> 
+	</div>
+	<div>
+		<p id='rb'>This sentence will turn red when you mouseover it.</p>
+	</div>
+
+	<hr>
+
+	<div>
+		<h4>JavaScript Exercise 5e </h4> 
+	</div>
+	<form>
+		<input type='text' id='firstoperand' placeholder='First Operand'/><br>
+		<input type='text' id='secondoperand' placeholder='Second Operand'/><br>
+		<input type='button' onClick='divide()' value='Divide' />
+		<input type='button' onClick='multiply()' value='Multiply' />
+		<p>The answer: <span id='result'></span></p>
+	</form>
+	</div> <!-- end id="content"-->
+</body>
+</html>

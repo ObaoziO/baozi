@@ -1,0 +1,49 @@
+/***
+  * Yuqing Guo
+  * ISTE240 Exercise - 03 Site Map
+  **/
+
+body{ /* set font family  */ 
+	font-family: Georgia, Arial, "Times New Roman", sans-serif;
+    background-color: #000;
+}
+
+h2,h3{ /* set properties for h2 and h3 tags */
+    background-color: #339966;
+    color: #FFF;
+    text-align: center;
+    border: 2px solid #FFF;
+    border-radius: 10px;
+    padding: 1%;
+}
+
+p{ /* set properties for p tag */
+    margin: 0 10% 3% 10%;
+    padding: 1% 5%;
+}
+
+#content{ /* a div containing everthing inside the body */
+    background-color: #FFF;
+    border-radius: 5px;
+    padding-top: 0.1%;
+    padding-bottom: 5%;
+}
+
+.border{ /* div used for images */
+    font-size: 12px;
+    text-align: center;
+    margin: 5% 8% 5% 8%;
+    padding: 2% 0 2% 0;
+    box-shadow: 5px 5px 8px 2px #CCC;
+}
+
+a{ /* set link properties */
+    color: #3399CC;
+}
+
+a:hover{ /* set link properties when hovered over */
+    color: #339966;
+}
+
+
+

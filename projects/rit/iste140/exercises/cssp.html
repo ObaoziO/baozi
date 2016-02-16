@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8"/>
+		<title>ICE 18: Layout Part 2: CSS Positioning</title>
+		
+	<style type="text/css">
+		body{
+			padding:20px 50px 0px 50px;
+			font-family:"Times New Roman",Arial;
+		}
+		#headTop{
+			width:auto;
+			border:2px solid #0A290A; 
+			background-color:#C2F0C2; 
+			color:#0A290A; 
+			margin-bottom:10px; 
+			text-align:center; 
+			font-weight:bold; 
+			font-size:20px;;
+		}
+		#leftRightContent{width:auto; margin-bottom:30px; float:left;}
+		#leftDiv{width:48%; float:left;}
+		#rightDiv{width:48%; float:left;}
+		#rightDiv{float:right;}
+		.center{text-align:center;}
+		#copyRight{position:absolute; bottom:0px;}
+		#copyRight{position:relative; text-align:center;}
+		.title{
+			font-weight: bold; background-color:#A9DAA9; color:#0A290A;
+		}
+		table{
+			border:2px solid #1A661A; border-collapse:collapse;
+			margin: 0px 30px 30px 0px;
+		}
+		td{
+			text-align:left; border:2px solid #1A661A; padding:5px 20px 5px 5px;
+		}
+		th{
+			border:2px solid #1A661A; padding:5px; background-color:#006600;
+			color:#FFFFFF; font-weight:bold;
+		}
+	</style>
+	</head>
+	<body>
+	
+	<div id="headTop">My Interests</div>  <!-- end id="headTop" -->
+	
+	<div id="leftRightContent">
+	<div id="leftDiv">
+	<table>
+		<tr><th colspan="3">My Interests</th></tr>
+		<tr>
+			<td class="title">School</td>
+			<td class="title">Hobbies</td>
+			<td class="title">Other</td>
+		</tr>
+		<tr>
+			<td>RIT</td>
+			<td>Watching K-drama</td>
+			<td>EXO</td>
+		</tr>
+		<tr>
+			<td>BHS</td>
+			<td>Listening to Music</td>
+			<td>Coding</td>
+		<tr>
+			<td></td>
+			<td>Jogging</td>
+			<td>Web and Mobile (and Database)</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td></td>
+			<td>Psychology</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td></td>
+			<td>Language</td>
+		</tr>
+	</table>
+		<div class="center">
+			<img src="media/me.jpg" alt="Yuqing Guo" height="375" width="250">
+		</div> <!-- end id="rightDiv" -->
+	
+	</div> <!-- end class="leftDiv" -->
+	
+	<div id="rightDiv">
+		<p>
+			I enjoy watching Korean dramas and listening to Hip-Pop and Rap music. I usually listen to Chinese and Korean music. For K-pop (Korean pop), I like to listen to songs from EXO, BTS, GOT7, and B.A.P and mainly online singers for Chinese music. Although my skills may be average, I enjoy playing sports such as badminton, tennis, basketball, and soccer.
+		</p>
+		<p>
+			Regarding my curent major, Information Technology, I enjoy the programming aspect of the major as well as creating and designing websites. I am currently planning to obtain a Minor in Psychology. After graduation, I would also like to continue my education while pursuing a master's degree in Human-Computer Interaction. As a career, I would like to go into web and mobile related positions.
+		</p>
+		<div class="center">
+			<img src="media/exo.png" alt="EXO" height="201" width="296">
+		</div> <!-- end id="center" -->
+		</div> <!-- end id="rightDiv" -->
+	</div>  <!-- end id="leftRightContent" -->
+	
+	<div id="copyRight">
+		This page was made by Yuqing Guo, on 28 October 2014. &copy; Yuqing Guo.
+	</div>  <!-- end id="copyRight" -->
+
+	</body>
+</html>

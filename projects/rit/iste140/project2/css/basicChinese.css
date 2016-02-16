@@ -1,0 +1,165 @@
+
+/* navigation style*/
+ul#navlist{
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	float: left;
+	width: 100%;
+	color: #fff;
+	background-color: #036;
+}
+
+ul#navlist li{
+	display: inline;
+}
+
+ul#navlist li a{
+	float: left;
+	width: auto;
+	color: #fff;
+	background-color: #036;
+	padding: 0.2em 1em;
+	text-decoration: none;
+	border-right: 1px solid #fff;
+}
+
+ul#navlist li a:hover{
+	background-color: #369;
+	color: #fff;
+}
+/* end navigation style*/
+
+
+body{
+	background-color: #EEEEEE;
+	font-family: arial, serif, "Times New Roman", Times;
+	color: #000000;
+}
+h1{
+	color: #CF7B14;
+	/*float:left;*/
+}
+h2{
+	color: #934A00;
+}
+h3{
+
+}
+
+
+ul.circle{
+	list-style-type: circle;
+}
+ul.image{
+	list-style-image: url('');
+}
+li{
+	padding-top: 10px;
+}
+
+
+.siteNav{
+	background-color: #FFAD33;
+	text-align: center;
+	padding: 10px;
+}
+.currentSite{
+	background-color: #FFF7EB;
+	margin: 0px 10px 10px 10px;
+	padding: 5px 20px 20px 20px;
+}
+.siteContent{
+	/*background-color: #EEEEEE;
+	border: 5px solid #EEEEEE;
+	border-radius: 20px;*/
+	padding: 5px 20px 300px 20px;
+}
+
+
+.floatLeft{
+	float:left;
+}
+.floatRight{
+	float:right;
+	/*padding-top: 10px;*/
+}
+
+
+.lbcLogo{
+	float:left;
+	padding-top: 15px;
+}
+
+.contents{
+	/*
+	background-color: #FFFAF3;
+	border: 1px solid #FFFAF3;
+	border-radius: 5px;*/
+	width: 65%;
+	float:left;
+	padding: 0px 5px 5px 10px;
+}
+
+.sideLinks{
+	background-color: #FFFAF3;
+	border: 1px solid #FFFAF3;
+	border-radius: 5px;
+	color: #934A00;
+	width: 25%;
+	float:right;
+	padding: 15px 10px 10px 15px;
+	margin-bottom: 50px;
+}
+
+.margin{
+	margin-top: 10px;
+}
+
+
+table{
+	width: 30%;
+}
+td{
+	text-align: center;
+}
+
+a:link{
+	color: #CF7B14;
+	text-decoration: none;
+}
+a:visited{
+	color: #CF7B14;
+}
+a:hover{
+	color: #29A329;
+}
+a:active{
+	color: #CF7B14;
+}
+
+a.menu{
+	color: #934A00;
+	margin: 100px 0px 0px 20px;
+	padding: 0px 20px 0px 20px;
+}
+a.menu:hover{
+	color: #29A329;
+}
+
+a.bottomLinks{
+	color: #934A00;
+	position: absolute;;
+	bottom:0px;
+}
+a.bottomLinks{
+	position:relative;
+	text-align: center;
+}
+a.bottomLinks:hover{
+	color: #29A329;
+}
+
+
+
+

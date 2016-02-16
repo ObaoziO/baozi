@@ -1,0 +1,60 @@
+body{
+	background-color: #FFFFFF;
+	color: #000000;
+	font-family: "Times New Roman";
+	font-size: 12pt;
+}
+
+h1 {
+	color: #000;  
+	font-size: 40px;
+	font-weight:bold;
+	text-align: center;
+	padding: 10px 0px 10px 0px;
+}
+
+#logo {
+	display: none; 
+}
+
+#content {
+	margin-left: 0px; 
+}
+
+
+#caption {
+	color: #000;
+	font-family: "Times New Roman", Gregoria;
+	font-weight: bold;
+	margin-left: 10px;
+}
+
+/* property for all links */
+
+a {
+	font-family: Gregoria, "Times New Roman";
+	text-decoration: none;
+	color: #000;
+	text-decoration: none;
+}
+
+/* unvisited link */
+a:link {
+	color: #000;
+}
+
+/* selected link; when being clicked */
+a:active {
+	color: #000;
+}
+
+/* visited link; having been clicked */
+a:visited {
+	/* color: #7FC87F;  // lighter green - a bit too light/bright */
+	color: #000;
+}
+
+/* mouse over link; when rolled over */
+a:hover {
+	color: #000;
+}

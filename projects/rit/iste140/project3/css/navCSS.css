@@ -1,0 +1,66 @@
+/**************************
+ *    navigation style    */
+
+
+.navlist {
+	display: block;
+}
+.navlist ul{
+	background-color: #FFAD33;
+	color: #CF7B14;
+	list-style-type: none;
+}
+.navlist ul .top{
+	float: left;
+	width: 100%;
+}
+.navlist li {
+	text-decoration: none;
+	float: left;
+} 
+.navlist li a {
+  	color: #934A00;
+  	text-decoration: none;
+	display: block;
+	padding: 0.5em 1em 0em 1em;
+	/*border-right: 1px solid #CF7B14;*/
+}
+.navlist ul li ul {
+	background: #FFAD33; /* blue */
+	visibility: hidden; /*hides drop downs when not hover over*/
+	padding: 0 3.5em 0 0; /* need 0 padding to fix the auto padding problem */
+	position: absolute;
+  	border: 1px solid #934A00;
+	list-style-type: none;
+}
+.navlist li:hover {
+	background-color: #CF7B14; /* white */
+}
+.navlist ul li:hover > ul{
+  	visibility: visible;
+	width: auto;
+}
+.navlist ul li a:hover {
+	/* 1/2 need both to fix the padding/color problem */
+	background-color: #FFFAF3; /* yellow */
+}
+.navlist ul li ul:hover { 
+	/* 2/2 need both to fix the padding/color problem */
+	background-color: #FFFAF3; /* yellow */
+}
+
+
+/* "Where am I now?" style */
+.navlist li a#current{
+	background-color: #934A00;
+	color: #FFFAF3;
+}
+.navlist li a#currentDrop{
+	color: #934A00;
+	font-weight: bold;
+}
+
+
+
+/*  end navigation style  *
+ **************************/
