@@ -1,6 +1,6 @@
 body {
   font-family: Georgia, Arial;
-  font-size: 16pt;
+  font-size: 14pt;
   background-color: #000;
   color: #E6E6E6;
 }
@@ -13,10 +13,20 @@ header {
 .menuContainer {
   display: flex;
 }
-#content {
+#container {
+  /*background-color: red;*/
+}
+#content { /* General contents properties */
   width: 90%;
   margin: auto;
   padding: 3%;
+  background: orange;
+}
+#contentProj { /* Project contents properties */
+  width: 75%;
+  border: 1px solid #4CAF50;
+  margin: auto;
+  /*background: blue;*/
 }
 .icon {
   font-size: 25pt;
@@ -127,3 +137,44 @@ li a:hover:not(.active) {
 /********************************
 *      END: Navigation Bar      *
 *********************************/
+
+/********************************/
+
+/********************************
+*  START: Local Navigation Bar  *
+*********************************/
+
+/********************************
+*   END: Local Navigation Bar   *
+*********************************/
+
+#localNav {
+  width: 70%;
+  font-size: 20pt;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  /*background: purple;*/
+}
+#localNav {
+  margin: auto; /* Centering the nav bar*/
+  padding-top: 2%;
+}
+#localNav li{
+  float: left;
+}
+#localNav li a{
+  color: #FFF;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  border: 1px solid #4CAF50;
+  padding: 10px 16px;
+}
+#localNav li a:hover{
+
+}
+#localNav li a#actLocal{ /* actLocal: currently on page for local nav bar */
+
+}

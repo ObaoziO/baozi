@@ -12,7 +12,7 @@
 	display: inline;
 }
 #localnav li a{
-  	color: #934A00;
+  color: #934A00;
 	text-decoration: none;
 	border: 1px solid #934A00;
 	border-bottom: none;
@@ -26,7 +26,7 @@
 }
 #localnav li a#currentlocal{
 	background: #FFFEFB;
-  	color: #934A00;
+  color: #934A00;
 	border: 2px solid #934A00;
 	border-bottom: 1px solid #FFFEFB;
 }
