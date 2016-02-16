@@ -5,16 +5,23 @@ body {
   color: #E6E6E6;
 }
 header {
-  width: 90%;
+  width: 100%;
   margin: auto;
-  padding: 2%;
   border-bottom: 1px solid #4CAF50;
 }
 .menuContainer {
   display: flex;
+  padding: 2%;
+  /*background: red;*/
 }
-#container {
-  /*background-color: red;*/
+.icon {
+  font-size: 25pt;
+  text-align: center;
+  padding: 1% 4% 0 4%;
+  /*border: 1px solid #4CAF50;*/
+}
+#container { /* Contains everything between header and footer */
+  /*background-color: grey;*/
 }
 #content { /* General contents properties */
   width: 90%;
@@ -23,16 +30,17 @@ header {
   background: orange;
 }
 #contentProj { /* Project contents properties */
-  width: 75%;
+  width: 70%;
   border: 1px solid #4CAF50;
+  border-bottom: none;
   margin: auto;
+  padding: 1% 3% 3% 3%;
   /*background: blue;*/
 }
-.icon {
-  font-size: 25pt;
-  text-align: center;
-  padding: 3% 4% 0 4%;
-  /*border: 1px solid #4CAF50;*/
+footer{
+  min-height: 100px;
+  border-top: 1px solid #4CAF50;
+  /*background-color: yellow;*/
 }
 a { /* General link properties */
   color: #4CAF50;
@@ -149,7 +157,7 @@ li a:hover:not(.active) {
 *********************************/
 
 #localNav {
-  width: 70%;
+  width: 65%;
   font-size: 20pt;
   list-style-type: none;
   margin: 0;
@@ -170,6 +178,7 @@ li a:hover:not(.active) {
   text-align: center;
   text-decoration: none;
   border: 1px solid #4CAF50;
+  border-bottom: none;
   padding: 10px 16px;
 }
 #localNav li a:hover{
