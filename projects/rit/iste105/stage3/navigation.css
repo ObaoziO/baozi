@@ -1,0 +1,72 @@
+
+	.navigation {
+		float: left;
+		margin-left: 20px;
+		margin-top: 10px; 
+	}
+	nav ul ul {
+		display: none;
+	}
+	nav ul li:hover > ul {
+		display: block;
+	}
+	nav ul {
+		padding: 0 0px;
+		list-style: none;
+		position: relative;
+		display: inline-table;
+	}
+	nav ul:after {
+		content: ""; 
+		clear: both; 
+		display: block;
+	}
+	nav ul li {
+		float: left;
+		margin-left: 5px;
+		border-radius: 5px; 
+		background: #E0E0E0;
+	}
+	nav ul li:hover {
+		border-radius: 20px;
+	}
+	nav ul li:hover a {
+		color: #006400;
+	}
+	nav ul li a {
+		display: block; 
+		padding: 5px 10px;
+		border-top-left-radius: 5px;
+		border-top-right-radius: 5px;  
+		border-bottom-left-radius: 0px;
+		border-bottom-right-radius: 0px;
+		color: #006400; 
+		text-decoration: none;
+	}
+	nav ul ul {
+		border-radius: 20px; 
+		padding: 0;
+		position: absolute; 
+		top: 100%;
+	}
+	nav ul ul li {
+		float: none; 
+		margin-top: 2px; 
+		border: 1px solid #A5C9A5;
+		border-radius: 10px;
+		position: relative;
+	}
+	nav ul ul li a {
+		width: 110px;
+		padding-left: 10px;
+		color: #FFFFFF;
+	}	
+	nav ul ul li a:hover {
+		border-radius: 10px; 
+		background: #C0C0C0;
+	}
+	nav ul ul ul {
+		position: absolute; 
+		left: 100%; 
+		top:0;
+	}
