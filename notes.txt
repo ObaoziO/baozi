@@ -1,4 +1,4 @@
-PHP index page not supported by GitHub Pages:
+PHP index page not supported by GitHub Pages/can only use index.html for the home page:
 <?php include 'header.php'; ?> <!-- need index.html for GitHub Pages -->
 
 List Menu:
@@ -6,3 +6,72 @@ List Menu:
   <li><a class="active" href="index.html"> baozi </a></li>
   <li><a href="resume.html"> Resume </a></li>
 </ul>
+
+
+
+[Projects] - to be included on the Projects page(s)
+
+>2013<
+
+* ISTE 105 Web Foundations
+* ISTE 120 - Computational Problem Solving in the Information Domain I
+
+
+
+>2014<
+
+* Web and Mobile I 
+* ISTE 121 - Computational Problem Solving in the Information Domain II
+
+
+
+>2015<
+
+
+* Web and Mobile II
+
+* Glance (Summer Co-op) - RIT CAIR Research Lab
+
+* Client Programming (ISTE 340) - projects ??most likely
+
+* Software Design Principles & Patterns - project(s) ??maybe
+
+* Design the User Experience (ISTE 260) - project(s)??
+
+* Database & Data Modeling (ISTE 230) - project(s)??
+
+* Information Requirements Modeling (ISTE 430) - project(s) ??probably not
+
+
+
+>2016<
+
+* Foundations of Mobile Design (ISTE 252)
+
+*Mobile App Development II - projects ??most likely
+
+* New Media Design Digital Survey I - projects ??probably
+
+* Server Programming (ISTE 341)- projects ??maybe
+
+
+
+>2017<
+
+* Mobile App Development I - projects??
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
