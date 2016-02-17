@@ -121,42 +121,24 @@ li a:hover:not(.active) {
     text-decoration: none;
     display: block;
 }
-.dropdown-content a:hover {
-  /*background-color: #008000;*/
+/*.dropdown-content a:hover {
+  background-color: #008000;
   border: 1px solid #4CAF50;
-}
+}*/
 .dropdown:hover .dropdown-content {
     display: block;
 }
-.dropdown:hover .dropbtn {
-  background-color: #008000;
-  color: #000;
-}
+/*.dropdown:hover .dropbtn {
+  background-color: #006600; /* #008000*
+  color: #FFF;
+}*/
 .dropdown:hover .dropbtn a {
   color: #E6E6E6;
   text-decoration: none;
 }
 /****** END: Dropdown Menu ******/
 
-.active, a.active { /* Indicates the current page user is on */
-  color: #4CAF50;
-  font-weight: bold;
-}
-
-/********************************
-*      END: Navigation Bar      *
-*********************************/
-
-/********************************/
-
-/********************************
-*  START: Local Navigation Bar  *
-*********************************/
-
-/********************************
-*   END: Local Navigation Bar   *
-*********************************/
-
+/*  START: Local Navigation Bar */
 #localNav {
   width: 65%;
   /*font-family: "Tom's Handwriting";*/
@@ -184,10 +166,22 @@ li a:hover:not(.active) {
   /*margin-bottom: 2px;*/
   padding: 10px 16px;
 }
-#localNav li a:hover{
-  background-color: #008000;
-  color: #000;
-}
-#localNav li a#actLocal{ /* actLocal: currently on page for local nav bar */
+/*  END: Local Navigation Bar  */
 
+/* START: Nav Bar Hover & Active Properties */
+.active, a.active, #localNav li a#actLocal{ /* Indicates the current page user is on; actLocal: currently on page for local nav bar */
+  color: #4CAF50;
+  font-weight: bold;
 }
+.dropdown:hover .dropbtn, .dropdown-content a:hover, #localNav li a:hover, #localNav li a#actLocal:hover{
+ background-color: #006600;
+ color: #FFF;
+}
+.dropdown-content a:hover {
+  border: 1px solid #4CAF50;
+}
+/*  END: Nav Bar Hover & Active Properties  */
+
+/********************************
+*      END: Navigation Bar      *
+*********************************/
