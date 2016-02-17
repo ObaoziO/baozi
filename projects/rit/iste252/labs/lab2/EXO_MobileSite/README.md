@@ -1,12 +1,9 @@
-# baozi
-A about me (Yuqing Guo) page. Includes the information such as my resume and projects I have done.
-
 ## GitHub Pages
 ###baozi (Main Site Home Page)
 http://obaozio.github.io/baozi/index.html
 
 ###EXO (Mobile Site)
-http://obaozio.github.io/baozi/projects/iste252/EXO_MobileSite/index.html
+http://obaozio.github.io/baozi/projects/rit/iste252/labs/lab2/EXO_MobileSite/index.html
 
 ##Data Sources
 Links to sources used in the mobile site data.
