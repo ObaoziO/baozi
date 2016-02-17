@@ -130,7 +130,6 @@ li a:hover:not(.active) {
 }
 .dropdown:hover .dropbtn {
   background-color: #008000;
-  border: 1px solid #4CAF50;
   color: #000;
 }
 .dropdown:hover .dropbtn a {
@@ -181,10 +180,12 @@ li a:hover:not(.active) {
   text-decoration: none;
   border: 1px solid #4CAF50;
   border-bottom: none;
+  /*margin-bottom: 2px;*/
   padding: 10px 16px;
 }
 #localNav li a:hover{
-
+  background-color: #008000;
+  color: #000;
 }
 #localNav li a#actLocal{ /* actLocal: currently on page for local nav bar */
 
