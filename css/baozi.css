@@ -159,6 +159,7 @@ li a:hover:not(.active) {
 
 #localNav {
   width: 65%;
+  /*font-family: "Tom's Handwriting";*/
   font-size: 20pt;
   list-style-type: none;
   margin: 0;
