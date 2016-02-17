@@ -34,9 +34,9 @@ List Menu:
 
 * Web and Mobile II
 
-* Glance (Summer Co-op) - RIT CAIR Research Lab
-
 * Client Programming (ISTE 340) - projects ??most likely
+
+* Glance (Summer Co-op) - RIT CAIR Research Lab (http://cair.rit.edu/people.html)
 
 * Software Design Principles & Patterns - project(s) ??maybe
 
@@ -52,7 +52,7 @@ List Menu:
 
 * Foundations of Mobile Design (ISTE 252)
 
-*Mobile App Development II - projects ??most likely
+* Mobile App Development II - projects ??most likely
 
 * New Media Design Digital Survey I - projects ??probably
 
