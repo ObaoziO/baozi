@@ -40,32 +40,36 @@ header {
 }
 .projInfoContainer{
   width: 100%;
-  background: purple;
   overflow: auto; /*Clear fix: make sure the divs within do not go outside of the container */
+  /*background: purple;*/
 }
 .projInfoL, .projInfoR{
   width: 45%;
   margin: 1%;
-  background: red;
+  padding: 0 2% 1% 0;
+  /*background: red;*/
 }
 .projInfoL p, .projInfoR p{
-  /*margin: 0;*/
   height: 100px;
+  margin: 0;
+  /*padding-left: 4%;
+  padding-right: 4%;*/
+  /*padding: 1% 4%;*/
   display: table-cell;
   vertical-align: middle;
+}
+.projInfoL img, .projInfoR img{
+  width: 150px;
+  height: 120px;
+  margin-right: 4%;
+  float:left;
+  background-color: yellow;
 }
 .projInfoL{
   float: left;
 }
 .projInfoR{
   float: right;
-}
-.projImg{
-  width: 150px;
-  height: 100px;
-  float:left;
-  margin-right: 2%;
-  background-color: yellow;
 }
 footer{
   width: 100%;
