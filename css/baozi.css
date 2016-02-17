@@ -38,6 +38,35 @@ header {
 #contentProj { /* Project contents properties */
   /*background: blue;*/
 }
+.projInfoContainer{
+  width: 100%;
+  background: purple;
+  overflow: auto; /*Clear fix: make sure the divs within do not go outside of the container */
+}
+.projInfoL, .projInfoR{
+  width: 45%;
+  margin: 1%;
+  background: red;
+}
+.projInfoL p, .projInfoR p{
+  /*margin: 0;*/
+  height: 100px;
+  display: table-cell;
+  vertical-align: middle;
+}
+.projInfoL{
+  float: left;
+}
+.projInfoR{
+  float: right;
+}
+.projImg{
+  width: 150px;
+  height: 100px;
+  float:left;
+  margin-right: 2%;
+  background-color: yellow;
+}
 footer{
   width: 100%;
   min-height: 100px;
