@@ -6,7 +6,7 @@ An about me, Yuqing (Jeanie) Guo, page. The website includes information such as
 # Resume
 - PDF: http://obaozio.github.io/baozi/pdf/Y.Guo_Resume.pdf
 - GitHub Page: http://obaozio.github.io/baozi/resume.html
-- QR Code: ![http://obaozio.github.io/baozi/asset/image/QRCode/baoziQR.png](asset/image/QRCode/baoziQR.png)
+- QR Code: ![http://obaozio.github.io/baozi/asset/image/QRCode/baoziQR.png](asset/image/QRCode/baoziQR_tn.png)
 
 # Projects
 ## Rochester, NY
