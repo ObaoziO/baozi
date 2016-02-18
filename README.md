@@ -1,8 +1,12 @@
 # baozi
 An about me, Yuqing (Jeanie) Guo, page. The website includes information such as my resume and projects I have done.
 
-- Home Page: 
-http://obaozio.github.io/baozi/index.html
+- Home Page: http://obaozio.github.io/baozi/index.html
+
+# Resume
+- PDF: http://obaozio.github.io/baozi/pdf/Y.Guo_Resume.pdf
+- GitHub Page: http://obaozio.github.io/baozi/resume.html
+- QR Code:
 
 # Projects
 ## Rochester, NY
