@@ -2,7 +2,7 @@
  *    navigation style    */
 
 
-.navlist {
+.navlist{
 	display: block;
 }
 .navlist ul{
@@ -10,15 +10,15 @@
 	color: #CF7B14;
 	list-style-type: none;
 }
-.navlist ul .top{
+/*.navlist ul .top{
 	float: left;
 	width: 100%;
-}
-.navlist li {
+}*/
+.navlist li{
 	text-decoration: none;
 	float: left;
 }
-.navlist li a {
+.navlist li a, .dropBtn{
 	color: #934A00;
 	text-decoration: none;
 	display: block;
@@ -49,6 +49,46 @@
 	background-color: #FFFAF3; /* yellow */
 }
 
+
+/**/
+/*li a, .dropBtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}*/
+
+/*li a:hover, .navDropdown:hover .dropBtn {*/
+    /*background-color: #111;*/
+		/*background: red;
+}*/
+
+/*.navDropdown {
+    display: inline-block;
+}*/
+
+.navDdownContent { /* Navigation dropdown content */
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.navDdownContent a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.navDdownContent a:hover {
+	background-color: #f1f1f1
+}
+.navDropdown:hover .navDdownContent {
+    display: block;
+}
+/**/
 
 /* "Where am I now?" style */
 .navlist li a#current{
