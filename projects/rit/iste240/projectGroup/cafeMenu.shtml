@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang='en'>
+<!--Begin Head-->
+<head>
+	<meta charset='utf-8'>
+	<link rel="stylesheet" href="assets/css/navstyle.css">
+	<link rel="stylesheet" href="assets/css/aurko.css">
+	<link rel="shortcut icon" type="image/png" href="assets/image/samplelogo.png"/>
+	<title>Cafe Menu</title>
+</head><!--End Head-->
+<!--Begin Body-->
+<body>
+	<!--Link page Header-->
+	<!--#include file="header.html" -->
+	<!--Begin content section-->
+	<div id = "cafeBody">
+		<!--Quicknav header to jump to specific section on page-->
+		<p class = "quicknav">
+			<a href = "#drinks">Drinks</a>
+			<a href = "#coldfood">Cold Foods/Grab N’ Go</a>
+			<a href = "#hotfood">Hot Foods</a>
+			<a href = "#soup">Soups </a>
+		</p><!--End QuickNav-->
+		<!--Begin Drinks Section-->
+		<a name="drinks"></a>
+		<h5>Drinks</h5> 
+			<!--BeginRow-->
+			<div class = "menuBox">
+				<p><span class = "special">Iced Coffee</span>
+				<br>(12oz/16oz/20oz) 
+				<br>$2.00/$3.00/$4.00</p>
+			</div>
+			<div class = "menuBox">
+				<p><span class = "special">Smoothie</span>
+				<br>(12oz/16oz/20oz) 
+				<br>$3.00/$4.00/$5.00</p>
+			</div>
+			<div class = "clear"></div>
+			<!--End Row-->
+			
+			<!--Begin Row-->
+			<div class = "menuBox">
+				<p><span class = "special">Fresh Squeezed Citrus</span>
+				<br>(12oz/16oz/20oz)
+				<br>$3.00/$4.00/$5.00</p>
+			</div>
+			<div class = "menuBox">
+				<p><span class = "special">Fresh Squeezed Lemonade</span>
+				<br>(12oz/16oz/20oz)
+				<br>$3.00/$4.00/$5.00</p>
+			</div>
+			<div class = "clear"></div>
+			<!--End Row-->
+		<!--End Drinks Section-->
+		
+		<!--Begin Cold Food Section-->
+		<a name="coldfood"></a>
+		<h5>Cold Foods/Grab N’ Go</h5>
+			<!--Begin Row-->
+			<div class = "menuBox">
+				<p><span class = "special">Veggie Wrap</span>
+				<br>$5.00
+				<br>Tofu strips in lettuce, onions, and tomatoes, wrapped in whole wheat wrap.</p>
+			</div>
+			<div class = "menuBox">
+				<p><span class = "special">Tuna Wrap</span>
+				<br>$5.00
+				<br>Tuna salad wrapped in whole wheat wrap.</p>
+			</div>
+			<div class = "clear"></div>
+			<!--End Row-->
+			<!--Begin Row-->
+			<div class = "menuBox">
+				<p><span class = "special">Turkey Sandwich</span>
+				<br>$6.00
+				<br>Sliced turkey in lettuce, onions, tomatoes, and whole wheat bread.</p>
+			</div>
+			<div class = "menuBox">
+				<p><span class = "special">Ham Sandwich</span>
+				<br>$6.00
+				<br>Sliced ham in lettuce, onions, tomatoes, and whole wheat bread.</p>
+			</div>
+			<div class = "clear"></div>
+			<!--End Row-->
+		<!--End Cold Food Section-->
+		
+		<!--Begin Hot Food Section-->
+		<a name="hotfood"></a>
+		<h5>Hot Foods</h5> 
+			<!--Begin Row-->
+			<div class = "menuBox">
+				<p><span class = "special">Tuna Melt</span>
+				<br>$6.00
+				<br>Tuna Salad in melted cheddar in choice of whole wheat, white, or rye bread.</p>
+			</div>
+			<div class = "menuBox">
+				<p><span class = "special">Turkey Sandwich</span>
+				<br>$7.00
+				<br>Turkey in lettuce, onions, tomatoes, and choice of cheese in wheat, white, or rye bread.</p>
+			</div>
+			<div class = "clear"></div>
+			<!--End Row-->
+			<!--Begin Row-->
+			<div class = "menuBox">
+				<p><span class = "special">Ham Sandwich</span>
+				<br>$7.00
+				<br>Ham in lettuce, onions, tomatoes, and choice of cheese in wheat, white, or rye bread.</p>
+			</div>
+			<div class = "menuBox">
+				<p><span class = "special">Veggie Wrap</span>
+				<br>$7.00
+				<br>Tofu in lettuce, onions, tomatoes, and choice of cheese in wheat, white, or rye bread.</p>
+			</div>
+			<div class = "clear"></div>
+			<!--End Row-->
+			
+		<!--End Hot Food Section-->
+		
+		<!--Begin Soup Section-->
+		<a name="soup"></a>
+		<h5>Soups</h5> 
+			<div class = "menuBoxSpecial">
+				<p><span class = "special">Cup($2) or Bowl($3)</span>
+				<br>Choice of New England Clam Chowder, Tomato Basil, Chicken Noodle, Vegetable, Minestrone, Broccoli Cheddar, Asparagus, or Chicken Broth.
+				</p>
+			</div>
+			<div class = "clear"></div>
+		<!--End Soup Section-->	
+	</div><!--End content section-->
+
+	<!--Link page Footer-->
+	<!--#include file="footer.html" -->
+</body><!--End Body-->
+</html>

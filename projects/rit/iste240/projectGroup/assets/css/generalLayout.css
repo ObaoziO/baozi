@@ -1,0 +1,268 @@
+/*
+	Group 5
+	ISTE.240.01
+	Group Project CSS Style Sheet
+*/
+
+body{
+	font-family: "Roboto", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+	background-color: #FFF;
+	color: #000;
+    margin: 0;
+
+}
+
+h1, h2, h3{
+	color: #00647D;
+}
+
+.alignleft{
+	text-align: left;
+}
+
+#wrapper{
+   	width: 100%;
+	padding: 0.1% 0 2% 0;
+	text-align: center;
+	font-size: 20px;
+}
+
+.buttonsend{ /* outter div used for (appointment) button */
+	text-align: center;
+}
+
+.scheduleButton{ /* used inside a tag */
+	width: 350px;
+	height: 55px;
+	font-size: 20pt;
+	background-color: #008FB2;
+	color: #FFF;
+	border-radius: 5px;
+	padding: 1%;
+	margin: auto;
+	clear: both;
+}
+
+a{
+	color: #008FB2;
+	text-decoration: none;
+}
+
+a:hover{
+	color: #00647D;
+	text-decoration: none;
+}
+
+#calendar{
+	text-align: center;
+}
+
+#content{ /* smaller content wrapper */
+	width: 90%;
+	position: relative;
+    border-radius: 2px;
+	margin: auto;
+	margin-top:20px;
+}
+
+.indpages{ /* individual pages */
+	overflow: hidden;
+	float: left;
+	width: 32%;
+	margin: 0.5% 0 0 0.83%;
+	padding: 3% 0;
+}
+
+/******************** carousel START ********************/
+#myCarousel{
+	margin-left: 20%;
+	margin-right:20%;
+}
+.carousel-inner h2{
+    margin: 0;     
+    color: #666;
+    padding-top: 90px;
+    font-size: 52px;
+    font-family: "Roboto", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; 
+}
+
+.carousel{
+    margin-top: 20px;
+}
+/******************** carousel END ********************/
+
+
+/* Massage Appointment and Retreat Booking CSS **/
+/********************FROM************************/
+
+#leftContainer{
+	padding: 3px;
+	display: inline;
+	position: absolute;
+	top: 15px;
+	left: 5px;
+	float: left;
+	width: 35%;
+	background-color: white;
+	border-radius: 5px;
+	height: 474px;
+	font-size: 14px;
+}
+
+#instructorOne{
+	background-color: white;
+	height: 45%;
+	width: 95%;
+	margin: auto;
+	padding-left: 4px;
+}
+#instructorTwo{
+	background-color: white;
+	height: 45%;
+	width: 95%;
+	margin: auto;
+	padding-left: 4px;
+}
+
+#rightContainer{
+	display: inline;
+	top: 15px;
+	right: 5px;
+	float: right;
+	height: 485px;
+
+	width: 60%;
+	background-color: #EEE;
+	border-radius: 5px;
+	font-size: 14px;
+}
+
+#createContainer{
+	background-color: white;
+	height: auto;
+	width: 95%;
+	margin: auto;
+	padding-left: 7px;
+	border-radius: 5px;
+}
+
+#verifyContainer{
+	background-color: white;
+	height: auto;
+	width: 95%;
+	margin: auto;
+	padding-left: 4px;
+	border-radius: 5px;
+}
+
+input, textarea, select, button {
+  width : auto;
+  margin: 5px;
+
+  -webkit-box-sizing: border-box; /* For legacy WebKit based browsers */
+     -moz-box-sizing: border-box; /* For legacy (Firefox <29) Gecko based browsers */
+          box-sizing: border-box;
+}
+
+input[type=text],[type=email]{
+	padding:5px;
+	border:2px solid #ccc; 
+	-webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+input[type=text]:focus {
+	border-color:#00647D;
+}
+
+input[type=email]:focus {
+	border-color:#00647D;
+}
+
+input[type=submit]{
+	padding:5px 15px;
+	background:#ccc;
+	border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+input[type=submit]:hover {
+	background:rgb(0,123,150);
+	cursor:pointer;
+	transition: all 2s;
+}
+
+div.avatar{
+	margin: 5px;
+    padding-left: 5px;
+    height: auto;
+    width: auto;
+    float: right;
+}
+
+/*********************TO*************************/
+/* Massage Appointment and Retreat Booking CSS **/ 
+
+
+/* SLIDER START - 4 images
+@keyframes slider {
+0% { left: 0%; }
+20% { left: 0%; }
+25% { left: -100%; }
+45% { left: -100%; }
+50% { left: -200%; }
+70% { left: -200%; }
+75% { left: -300%; }
+95% { left: -300%; }
+100% { left: -400%; }
+}
+
+div #slider { 
+	display: block;
+	overflow: hidden; 	
+	height: 400px;
+	z-index: 10;
+}
+
+div #slider figure img { 
+	width: 25%; 
+	height: auto; 
+	float: left;
+	height: 400px;
+	z-index: 10;
+}
+
+div #slider figure { 
+	position: relative;
+	width: 400%;
+	margin: 0;
+	left: 0;
+	font-size: 0; 
+	text-align: left;
+	-moz-animation: 18s slider infinite;
+	-webkit-animation: 18s slider infinite;
+	animation: 18s slider infinite; 	
+}
+/* SLIDER END */
+
+
+.companyinfo{
+	float: left;
+	margin: 10px 0 10px 20px;
+
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.backtotop{
+	float: right;
+	margin: 10px 20px 10px 0px;
+
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+

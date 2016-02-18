@@ -1,0 +1,63 @@
+.names {
+	font-size: 16px; 
+	font-weight: bold;
+}
+
+#leftCol {
+	float: left; 
+	width: 45%; 
+	margin-right: 0.5%;
+	padding-left: 2%;
+}
+
+#rightCol {
+	float: right; 
+	width: 45%; 
+	margin-left: 0.5%;
+	padding-right: 2%;
+}
+
+.hours {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.left {
+	text-align: left;
+	margin-left: 0.5%;
+	margin-right: 0.5%;
+}
+
+.italics {font-style: italic;}
+
+.center{text-align: center;}
+
+.story {
+	font-size: 24px;
+	font-weight: bold;
+	color: #00647D;
+}
+
+#storyContent{ /* storyWrapper is changed to storyContent */
+	margin-right: 20%;
+	margin-left: 20%;
+	padding: 0.1% 0 2% 0;
+	text-align: center;
+	line-height: 150%;
+}
+		
+#locationContent { /* locationWrapper is changed to locationContent */
+	padding: 0.1% 0 2% 0;
+	margin: 0 10% 0 10%;
+	text-align: center;
+}
+
+#left {
+	float: left;
+	margin-left: 10%;
+}
+
+#right {
+	float: right;
+	margin-right: 10%;
+}

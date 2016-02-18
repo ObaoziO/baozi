@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+	<!--Begin Head-->
+	<head>
+		<meta charset="UTF-8">
+		<title>Yoga Instructors</title>
+		<link rel="stylesheet" href="assets/css/navstyle.css">
+		<link rel="stylesheet" href="assets/css/aurko.css">
+		<link rel="shortcut icon" type="image/png" href="assets/image/samplelogo.png"/>
+	</head><!--End Head-->
+	<!--Begin Body-->
+	<body>
+		<!--Link page Header-->
+		<!--#include file="header.html" -->
+		
+		<!--Begin Page Body-->
+		<div id="instructorPage">
+		
+			<h3 class = "quicknav">Meet Our Instructors</h3>
+
+
+			<!--1st Profile-->
+			<div class = "profileWrapper">
+				<img src="assets/image/portrait1.jpg" alt="Bernice Banks" class = "portrait" align="left">
+				<p><span class = "title">Bernice Banks</span><br>
+				<span class = "job">Yoga Instructor</span><br>
+				Physical Therapist for 5 years and a Massage specialist for over 7 years, available on Monday, 
+				Wednesday, and Friday from 7AM to 11PM and Saturday from 9AM to 12PM.<br>
+				Phone:  585 555 1234 ext 010<br>
+				Email: bbanks@gmail.com<br>		
+				</p>
+			</div>
+			<div class = "clear"></div>
+			<!--2nd Profile-->
+			<div class = "profileWrapper">
+				<img src="assets/image/portrait2.jpg" alt="Bernice Banks" class = "portrait" align="left">
+				<p><span class = "title">Marry Pendleton</span><br>
+				<span class = "job">Massage Care Specialist</span><br>
+				Physical Therapist for 5 years and a Massage specialist for over 7 years, 
+				available on Monday, Wednesday, and Friday from 7AM to 11PM and Saturday from 9AM to 12PM.<br>
+				Phone:  585 555 1234 ext 011<br>
+				Email: mpendleton@gmail.com<br>		
+				</p>
+			</div>
+			<div class = "clear"></div>
+			<!--3rd Profile-->
+			<div class = "profileWrapper">
+				<img src="assets/image/portrait3.jpg" alt="Bernice Banks" class = "portrait" align="left">
+				
+				<p><span class = "title">Marx Morrill</span><br>
+				<span class = "job">Yoga Instructor</span><br>
+				Physical Therapist for 5 years and a Massage specialist for over 7 years, available on Monday, 
+				Wednesday, and Friday from 7AM to 11PM and Saturday from 9AM to 12PM.<br>
+				Phone:  585 555 1234 ext 010<br>
+				Email: bbanks@gmail.com<br>		
+				</p>
+			</div>
+			<div class = "clear"></div>
+			<!--4th Profile-->
+			<div class = "profileWrapper">
+				<img src="assets/image/portrait4.jpg" alt="Bernice Banks" class = "portrait" align="left">
+				
+				<p><span class = "title">Claudette Hester</span><br>
+				<span class = "job">Massage Care Specialist</span><br>
+				Massage specialist for over 21 years, Available Tuesday and Thursday 
+				from 7AM to 11PM and Sunday from 9AM to  12PM.<br>
+				Phone:  585 555 1234 ext 012<br>
+				Email: chester@gmail.com<br>		
+				</p>
+			</div>
+
+		</div><!--End Page Body-->
+		<!--Link page Footer-->
+		<!--#include file="footer.html" -->
+	</body><!--End Body-->
+</html>

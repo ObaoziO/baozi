@@ -1,0 +1,207 @@
+/*	@author Aurko Mallick
+*	CSS for drop down nav bar
+*/
+
+/*import roboto font from GoogleFonts*/
+@import url(http://fonts.googleapis.com/css?family=Roboto);
+/*import Pacifico from GoogleFonts*/
+@import url(http://fonts.googleapis.com/css?family=Pacifico);
+/*Page Body format*/
+
+
+/*Initialize navigation bar*/
+#nav ul,
+#nav li,
+#nav span,
+#nav a {
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+/*Set all text color to white and default 14 px size*/
+#nav > ul > li > a {
+  color: #ffffff;
+  font-size: 14px;
+}
+/*Define border dimension and color*/
+#nav {
+  line-height: 1;
+  background: #141414;
+  /*creates a 3D gradient effect on the background(not the buttons), edited on http://css3buttongenerator.com/*/
+  background: -moz-linear-gradient(top, #333333 0%, #141414 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #333333), color-stop(100%, #141414));
+  background: -webkit-linear-gradient(top, #333333 0%, #141414 100%);
+  background: -o-linear-gradient(top, #333333 0%, #141414 100%);
+  background: -ms-linear-gradient(top, #333333 0%, #141414 100%);
+  background: linear-gradient(to bottom, #333333 0%, #141414 100%);
+  border-bottom: 5px solid #008FB2; /*That blue streak on the bottom*/
+  width: auto;
+}
+/*Insert's a space after the UL tag and nav Div tag so the menu extends to the end of the page*/
+#nav:after,
+#nav ul:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+/*creates a 3D gradient effect on the background of each button, edited on http://css3buttongenerator.com/*/
+#nav a {
+  background: #141414;
+  background: -moz-linear-gradient(top, #333333 0%, #141414 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #333333), color-stop(100%, #141414));
+  background: -webkit-linear-gradient(top, #333333 0%, #141414 100%);
+  background: -o-linear-gradient(top, #333333 0%, #141414 100%);
+  background: -ms-linear-gradient(top, #333333 0%, #141414 100%);
+  background: linear-gradient(to bottom, #333333 0%, #141414 100%);
+  color: #ffffff;
+  display: block;
+  font-family: "Roboto", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  padding: 19px 20px;
+  text-decoration: none;
+}
+/*Removes the list decorations for unorder lists*/
+#nav ul {
+  list-style: none;
+}
+/*Horizontal Nav-bar format*/
+#nav > ul > li {
+  display: inline-block;
+  float: left;
+  margin: 0;
+}
+/*add a the blue triangle on the bottom of each section after hovering over it.*/
+#nav > ul > li:hover:after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 0;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid #008FB2;
+  margin-left: -10px;
+}
+
+/*Darken the parent nav buttons after hovering over them, edited on http://css3buttongenerator.com/*/
+#nav > ul > li:hover > a {
+  color: #FFFFFF;
+  box-shadow: inset 0 0 3px #000000;
+  -moz-box-shadow: inset 0 0 3px #000000;
+  -webkit-box-shadow: inset 0 0 3px #000000;
+  background: #070707;
+  background: -moz-linear-gradient(top, #262626 0%, #070707 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #262626), color-stop(100%, #070707));
+  background: -webkit-linear-gradient(top, #262626 0%, #070707 100%);
+  background: -o-linear-gradient(top, #262626 0%, #070707 100%);
+  background: -ms-linear-gradient(top, #262626 0%, #070707 100%);
+  background: linear-gradient(to bottom, #262626 0%, #070707 100%); 
+}
+
+/*format drop down section*/
+#nav .has-sub:hover > ul {
+  display: block;
+}
+/*hide drop down content until hovered over*/
+#nav .has-sub ul {
+  display: none;
+  position: absolute;
+  width: 200px;
+  top: 100%;
+  left: 0;
+}
+/*Overlap content on other sections*/
+#nav .has-sub {
+  z-index: 1;
+}
+/*format of sub-sections, added dotted borders to distinguish
+* also lowered the size of sub-section text by 2px
+*/
+#nav .has-sub ul li a {
+  background: #008FB2;
+  border-bottom: 1px dotted #000000;
+  font-size: 12px;
+  display: block;
+  line-height: 120%;
+  padding: 10px;
+  color: #ffffff;
+}
+/*Change background of sub-section after hover*/
+#nav .has-sub ul li:hover a {
+  background: #0c7fb0;
+}
+
+
+/*ERRORS TO FIX:
+border right side won't curve
+issue with highlighting sub folders
+media queries
+
+*/
+
+
+/*Company Logo*/
+.logo {
+  width: 175px;
+  height: 175px;
+  float: left;
+  margin: 0 5% 0 2%;
+}
+
+/*font style for compnay logo name*/
+.brand{
+  margin-top: 0px;
+  padding-top:0px;
+  font-family: 'Pacifico', cursive;
+  font-size: 60px;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #000;
+}
+
+/*format the header*/
+#header{
+	width: 100%;
+	height: 175px;
+	background-color: #008FB2;
+	margin-top: 0px;
+	padding-top:0px;
+}
+
+/*format the footer*/
+#footer{
+	width: 100%;
+	height: 100px;
+	background-color: #00647D;
+	padding: 5px 0 7px 0;
+	clear: both;
+}
+/*
+#footer{
+	color: #FFF;
+	padding: 2% 0;
+	text-align: center;
+	float: left;
+}*/
+
+#footer p {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 2px;
+	margin-bottom: 0px;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+#footer a{
+	color: #B2DDE8;
+	text-decoration:none;
+}
+
+#footer a:hover {
+	color: #FFFFFF;
+	text-decoration: underline;
+}

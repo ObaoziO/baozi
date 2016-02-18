@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+	<!--Begin Head-->
+	<head>
+		<meta charset="UTF-8">
+		<title>Facility Description</title>
+		<link rel="stylesheet" href="assets/css/navstyle.css">
+		<link rel="stylesheet" href="assets/css/aurko.css">
+		<link rel="shortcut icon" type="image/png" href="assets/image/samplelogo.png"/>
+	</head><!--End Head-->
+	<!--Begin Body-->
+	<body>
+		<!--Link page Header-->
+		<!--#include file="header.html" -->
+		
+		<!--Begin Page Body-->
+		<div id="cafeBody">
+		<p class = "cafeHours">After purchasing a tasty and nutritous meal prepared by our chefs, sit and enjoy your meal
+		inside our cafe which has an interior and exterior portion. Our interior portion is able to seat 
+		over twenty individuals and our exterior portion can seat up to ten individuals.</p>	
+		</div><!--End Page Body-->
+
+
+		<!--Link page Footer-->
+		<!--#include file="footer.html" -->
+	</body><!--End Body-->
+</html>
