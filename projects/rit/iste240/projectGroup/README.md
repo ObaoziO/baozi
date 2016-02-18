@@ -5,9 +5,9 @@ This is a team project where we created a website that is intended to be used by
 
 
 ### Documentation/Dividing Group Work
-- http://obaozio.github.io/baozi/projects/rit/iste240/groupProject/pdf/DesignDoc.pdf
-- http://obaozio.github.io/baozi/projects/rit/iste240/groupProject/pdf/Team_Project_Individual_Report.pdf
-- http://obaozio.github.io/baozi/projects/rit/iste240/groupProject/pdf/SplittingParts.pdf
+- Design Document:  http://obaozio.github.io/baozi/projects/rit/iste240/groupProject/pdf/DesignDoc.pdf
+- Individual Report:  http://obaozio.github.io/baozi/projects/rit/iste240/groupProject/pdf/Team_Project_Individual_Report.pdf
+- Table for Dividing Work (Overall):  http://obaozio.github.io/baozi/projects/rit/iste240/groupProject/pdf/SplittingParts.pdf
 
 
 
