@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8"/>
 	<link rel="stylesheet" type="text/css" href="css/chineseCSS.css"/>
-	<link rel="stylesheet" type="text/css" href="css/navCSS.css"/> <!-- navigation css stylesheet -->
+	<link rel="stylesheet" type="text/css" href="css/navCSS_03.css"/> <!-- navigation css stylesheet -->
 	<link rel="stylesheet" type="text/css" href="css/localnav.css"/> <!-- local navigation css stylesheet -->
 	<title>Lyrics: MAMA </title>
 </head>
@@ -22,17 +22,14 @@
 				<li><a href="pinyin.html">Pinyin</a></li>
 				<li><a href="basicChar.html">Basic Characters</a></li>
 				<li><a href="simpleSentences.html">Sentences and Phrases</a></li>
-				<li><a href="musicVideo.html" id="current">Music Videos</a>
-				<ul>
-					<li><a href="overdose.html" id="currentDrop">Lyrics</a>
-						<!--ul>
-							<li><a href="overdose.html">Overdose</a></li>
-							<li><a href="growl.html">Growl</a></li>
-							<li><a href="mama.html">MAMA</a></li>
-						</ul-->
-					</li>
-				</ul>
-				</li>
+				<div class="navDropdown">
+			    <a class="dropBtn" href="musicVideo.html" id="current">Music Videos</a>
+			    <div class="navDdownContent">
+			      <a href="overdose.html">Overdose</a>
+			      <a href="growl.html">Growl</a>
+			      <a href="mama.html" id="currentDrop">MAMA</a>
+			    </div>
+		  </div> <!-- END dropdown div -->
 			</ul>
 		</nav>
 		</div><!--end id#header-->
