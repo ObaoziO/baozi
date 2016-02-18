@@ -3,10 +3,14 @@ An about me, Yuqing (Jeanie) Guo, page. The website includes information such as
 
 - Home Page: http://obaozio.github.io/baozi/index.html
 
+
+
 # Resume
 - PDF: http://obaozio.github.io/baozi/pdf/Y.Guo_Resume.pdf
 - GitHub Page: http://obaozio.github.io/baozi/resume.html
 - QR Code: ![http://obaozio.github.io/baozi/asset/image/QRCode/baoziQR.png](asset/image/QRCode/baoziQR_tn.png)
+
+
 
 # Projects
 ## Rochester, NY
@@ -16,7 +20,7 @@ An about me, Yuqing (Jeanie) Guo, page. The website includes information such as
 
 
 ## Lotus
-This is a team project where we created a website that is intended to be used by a relatively small meditation/massage center. As described, this center wants to open a café and yoga center where people can come in for food, yoga, meditation, and massage. This site will also be highlighting the retreats that the center will be offering, and yoga equipment for sale. We will be creating the website in order to show precisely what the company offers such as menu of food and beverages, the yoga times, the massage types offered and their respective prices. Also, the website is going to show pictures of the bedrooms offered, the yoga spaces, the massage rooms, etc.
+This is a team project where we created a website that is intended to be used by a relatively small meditation/massage center. As described, this center wants to open a café and yoga center where people can come in for food, yoga, meditation, and massage. This site will also be highlighting the retreats that the center will be offering, and yoga equipment for sale. We will be creating the website in order to show precisely what the company offers such as menu of food and beverages, the yoga times, the massage types offered and their respective prices. Also, the website is going to show pictures of the bedrooms offered, the yoga spaces, the massage rooms, etc.
 
 #### Links
 <!-- http://obaozio.github.io/baozi/projects/rit/iste240/groupProject/index.php GitHub Pages do NOT support php pages -->
