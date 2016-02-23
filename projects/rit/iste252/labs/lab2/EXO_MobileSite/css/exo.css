@@ -11,8 +11,9 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
-.exoHome, .listItem {
+.exoHome, .memberInfo {
   background-color: #000;
+  color: #000;
   border: 2px solid #E6E6E6;
   padding: 10px;
   width: 100%;
@@ -53,23 +54,26 @@ img { /* centering the images */
   margin-left: auto;
   margin-right: auto;
 }
-.exo, .stageName, .fullName, .exoNum {
-  color: #E6E6E6; /* #45AA47 */
+.exo, .stageName, .givenName, .jerseyNum {
+  color: #E6E6E6; /* #E5E600 #45AA47 */
   font-weight: bold;
   font-size: 2em;
   text-align: center;
   margin: 0;
   padding: 0 0 0.5% 0;
 }
-.pic {
+.pic, .memberInfoText {
   width: 90%;
   background: #E6E6E6;
   background-size: cover;
   padding: 10px;
 }
-.styleMe {
-  font-weight: bold;
-  color: #E6E6E6; /* E5E600 */
+.memberInfoText{
+  /*color: #000;*/
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 0;
+  border-top: 1px solid #000;
 }
 a {
   text-decoration: none;

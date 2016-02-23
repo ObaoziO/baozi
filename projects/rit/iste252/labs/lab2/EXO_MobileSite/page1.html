@@ -43,11 +43,11 @@
       var out = "";
       var i;
       for(i = 0; i < inventory.length; i++) {
-          out +=  "<div class='listItem'" +
-                  "onclick=saveSelection(" + inventory[i].exoNum + ");>" +
+          out +=  "<div class='memberInfo'" +
+                  "onclick=saveSelection(" + inventory[i].exoOldest + ");>" +
                   "<p class='stageName'>"+ inventory[i].stageName +
                   "</p><img class='pic' src=img/" + inventory[i].image +
-                  ".png /></a><p class='exoNum'>" + inventory[i].exoNum + "</p></div>";
+                  ".png /></a><p class='jerseyNum'>" + inventory[i].jerseyNum + "</p></div>";
               }
       document.getElementById("id01").innerHTML = out;
   }

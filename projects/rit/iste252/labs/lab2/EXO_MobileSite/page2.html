@@ -32,15 +32,18 @@
       var i;
       var sel = localStorage.getItem("selected");
       for(i = 0; i < inventory.length; i++) {
-        if (sel == inventory[i].exoNum){
-          out = "<div class='listItem'><p class='fullName'>" + inventory[i].fullName +
+        if (sel == inventory[i].exoOldest){
+          out = "<div class='memberInfo'><p class='stageName'>" + inventory[i].stageName +
                 "</p><img class='pic' src=img/" + inventory[i].image +".png />" +
-                "<br><span class='styleMe'>Stage Name:&nbsp;</span>" + inventory[i].stageName +
-                "<br><span class='styleMe'>Superpower:&nbsp;</span>" + inventory[i].superPower +
-                "<br><span class='styleMe'>Birthday:&nbsp;</span>" + inventory[i].birthday +
-                "<br><span class='styleMe'>Height:&nbsp;</span>" + inventory[i].height + "&nbspcm" +
-                "<br><span class='styleMe'>Description:&nbsp;</span>" + inventory[i].description +
-                "</div>";
+                "<div class='memberInfoText'>" +
+                "<br><strong>Stage Name:&nbsp;</strong>" + inventory[i].stageName +
+                "<br><strong>Given Name:&nbsp;</strong>" + inventory[i].givenName +
+                "<br><strong>Birthday:&nbsp;</strong>" + inventory[i].birthday +
+                "<br><strong>Height:&nbsp;</strong>" + inventory[i].height + "&nbspcm" +
+                "<br><strong>Jersey Number:&nbsp;</strong>" + inventory[i].jerseyNum +
+                "<br><strong>Superpower:&nbsp;</strong>" + inventory[i].superPower +
+                "<br><strong>Description:&nbsp;</strong>" + inventory[i].description +
+                "</div></div>";
         }
     }
       document.getElementById("id01").innerHTML = out;
