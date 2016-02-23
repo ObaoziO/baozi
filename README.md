@@ -13,6 +13,8 @@ An about me, Yuqing (Jeanie) Guo, page. The website includes information such as
 
 
 # Projects
+- Site Link: http://obaozio.github.io/baozi/projects.html
+
 ## Rochester, NY
 #### Links
 - Home Page: https://people.rit.edu/~yxg2464/iste240/project1_final/index.php
