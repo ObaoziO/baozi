@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<!-- Yuqing Guo ISTE.252 Lab 3: A Mobile Site with AngularJS -->
+<head>
+<title>AngularJS Controllers</title>
+<link rel="stylesheet" type="text/css" href="css/exo.css">
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular.min.js">
+</script>
+<script src="selectItem.js"></script>
+</head>
+   <body ng-app="littleApp" ng-controller="ListCtrl">
+     <div class="content">
+       <div class="exoMem">
+      	<h1>EXO Members</h1>
+        <ol>
+        	<li ng-repeat="item in itemDetails | orderBy:selectedID" ng-click="select(item)">
+            {{item.stageName}}</li>
+        </ol>
+       </div>
+       <div class="memberInfo">
+        <h2>{{selected.stageName}}</h2>
+          <img class="pic" src="img/{{selected.image}}.png" />
+          <div class="memberInfoText">
+            <br><strong>Stage Name:</strong> {{selected.stageName}}
+            <br><strong>Given Name:</strong> {{selected.fullName}}
+            <br><strong>Birthday:</strong> {{selected.birthday}}
+            <br><strong>Height:</strong> {{selected.height}}
+            <br><strong>Jersey Number:</strong> {{selected.exoNum}}
+            <br><strong>Super Power:</strong> {{selected.superPower}}
+            <br><strong>Description:</strong> {{selected.description}}
+          </div>
+        </div>
+      </div>
+  </body>
+</html>

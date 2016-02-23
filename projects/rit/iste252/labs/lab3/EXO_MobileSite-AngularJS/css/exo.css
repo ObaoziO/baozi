@@ -1,0 +1,56 @@
+/* Yuqing Guo ISTE252 Lab 2: A Mobile Site */
+body {
+  font-family: Georgia, Arial;
+  font-size: 12pt;
+  background-image: url("../img/exo_black.png");
+  color: #FFF;
+  margin: 0;
+}
+.content {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.exoMem, .memberInfo{ /* exoMem = exo member */
+  background-color: #000;
+  border: 2px solid #E6E6E6;
+  padding: 10px;
+  width: 100%;
+  margin: 5px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.exoMem h1, .memberInfo h2{
+  text-align: center;
+  color: #E5E600;
+  margin: 0;
+  padding: 0 0 0.5% 0;
+}
+.exoMem ol {
+  color: #E6E6E6; /* E6E6E6 #45AA47 */
+  text-transform: uppercase;
+}
+.memberInfo strong {
+  color: #000;
+}
+img { /* centering the images */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.pic, .memberInfoText{
+  width: 90%;
+  background: #E6E6E6;
+  background-size: cover;
+  padding: 10px;
+}
+.memberInfoText{
+  color: #000;
+  margin-left: auto;
+  margin-right: auto;
+  border-top: 1px solid #000;
+}
+a {
+  text-decoration: none;
+}
