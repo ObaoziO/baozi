@@ -1,4 +1,4 @@
-# baozi
+# [baozi](http://obaozio.github.io/baozi/index.html)
 An about me, Yuqing (Jeanie) Guo, page. The website includes information such as my resume and projects I have done.
 
 - Home Page: http://obaozio.github.io/baozi/index.html
@@ -6,16 +6,15 @@ An about me, Yuqing (Jeanie) Guo, page. The website includes information such as
 
 
 # Resume
-- PDF: http://obaozio.github.io/baozi/pdf/Y.Guo_Resume.pdf
-- GitHub Page: http://obaozio.github.io/baozi/resume.html
-- QR Code: ![http://obaozio.github.io/baozi/asset/image/QRCode/baoziQR.png](asset/image/QRCode/baoziQR_tn.png)
+1.	[PDF](http://obaozio.github.io/baozi/pdf/Y.Guo_Resume.pdf)
+2.	[GitHub Pages](http://obaozio.github.io/baozi/resume.html)
+3.	[QR Code](asset/image/QRCode/baoziQR_tn.png)
+
+![http://obaozio.github.io/baozi/asset/image/QRCode/baoziQR.png](asset/image/QRCode/baoziQR_tn.png)
 
 
 
-# Projects
-- Page Link: http://obaozio.github.io/baozi/projects.html
-
-
+# [Projects](http://obaozio.github.io/baozi/projects.html)
 
 ## Websites
 - [Web & Mobile II (2015)](http://obaozio.github.io/baozi/projects/rit/iste240/index.html)
