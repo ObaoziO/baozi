@@ -9,7 +9,7 @@ An about me, Yuqing (Jeanie) Guo, page. The website includes information such as
 	- [Websites](#websites)
 
 
-## Resume
+## [Resume](http://obaozio.github.io/baozi/pdf/Y.Guo_Resume.pdf)
 1. [PDF](http://obaozio.github.io/baozi/pdf/Y.Guo_Resume.pdf)
 2. [GitHub Pages](http://obaozio.github.io/baozi/resume.html)
 3. [QR Code](asset/image/QRCode/baoziQR_tn.png)
