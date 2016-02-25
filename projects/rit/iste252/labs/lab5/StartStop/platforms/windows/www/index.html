@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>Start and Stop Orientation Info</title>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" id="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <script type="text/javascript" charset="utf-8" src="cordova.js"></script>
+    <script src="js/startstop.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+      
+  </head>
+  <body onload="onBodyLoad()">
+    <div>
+      <div>
+        <h2>Watching Device Orientation</h2>
+      </div>
+    </div>
+    <p> This application watches the device orientation using the Accelerometer API. <br>Click the "Start" button to enable the watch <br>Click the "Stop" button to disable the watch.</p>
+    <div>
+      <div>
+        <button onclick="startWatch();">
+          Start
+        </button>
+      </div>
+      <div>
+        <button onclick="stopWatch();">
+          Stop
+        </button>
+      </div>
+    </div>
+    <p id="accelInfo">Waiting for Cordova to initialize.</p>
+  </body>
+</html>
