@@ -3,20 +3,24 @@ An about me, Yuqing (Jeanie) Guo, page. The website includes information such as
 
 - Home Page: http://obaozio.github.io/baozi/index.html
 
+## Table of Contents
+- [Resume](#resume)
+- [Projects](#projects)
+	- [Websites](#websites)
 
 
-# Resume
-1.	[PDF](http://obaozio.github.io/baozi/pdf/Y.Guo_Resume.pdf)
-2.	[GitHub Pages](http://obaozio.github.io/baozi/resume.html)
-3.	[QR Code](asset/image/QRCode/baoziQR_tn.png)
+## Resume
+1. [PDF](http://obaozio.github.io/baozi/pdf/Y.Guo_Resume.pdf)
+2. [GitHub Pages](http://obaozio.github.io/baozi/resume.html)
+3. [QR Code](asset/image/QRCode/baoziQR_tn.png)
 
 ![http://obaozio.github.io/baozi/asset/image/QRCode/baoziQR.png](asset/image/QRCode/baoziQR_tn.png)
 
 
 
-# [Projects](http://obaozio.github.io/baozi/projects.html)
+## [Projects](http://obaozio.github.io/baozi/projects.html)
 
-## Websites
+### Websites
 - [Web & Mobile II (2015)](http://obaozio.github.io/baozi/projects/rit/iste240/index.html)
   - [Rochester, NY](https://people.rit.edu/~yxg2464/iste240/project1_final/index.php)
   - [Lotus](https://people.rit.edu/~yxg2464/iste240/projectGroup/)
