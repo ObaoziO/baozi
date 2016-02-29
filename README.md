@@ -22,8 +22,6 @@ An about me, Yuqing (Jeanie) Guo, page. The website includes information such as
 ## [Projects](http://obaozio.github.io/baozi/projects.html)
 
 ### Websites
-- [Web & Mobile II (2015)](http://obaozio.github.io/baozi/projects/rit/iste240/index.html)
-  - 
 
 - [Web & Mobile I (2014)](http://obaozio.github.io/baozi/projects/rit/iste140/index.html), [Web & Mobile II (2015)](http://obaozio.github.io/baozi/projects/rit/iste240/index.html), and [Web Foundation (2013)](http://obaozio.github.io/baozi/projects/rit/iste105/index.html)
 	```
@@ -66,8 +64,11 @@ Worked in a programming and researching team for a sonification based project us
 JavaScript, HTML, PHP, and CSS.
 	```
 
-- [Human-Computer Interaction](http://obaozio.github.io/baozi/projects/rit/iste105/stage3/index.html)
- 
+- [Human-Computer Interaction (HCI)](http://obaozio.github.io/baozi/projects/rit/iste105/stage3/index.html)
+	```
+One of the first websites I have developed. It contains YouTube videos regarding HCI, along with descriptions about and informations on HCI, schools were a degree in HCI is offered, and possible careers and salaries after obtaining a HCI degree.
+	```
+
 
 ### Java Programs
 	
