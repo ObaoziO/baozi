@@ -7,9 +7,7 @@ An about me, Yuqing (Jeanie) Guo, page. The website includes information such as
 - [Resume](#resume)
 - [Projects](#projects)
 	- [Websites](#websites)
-		- [Team Projects](#team-projects-\(sites\))
 	- [Java Programs](#java-programs)
-		- [Team Projects](#java:-team-projects)
 
 
 ## [Resume](http://obaozio.github.io/baozi/pdf/Y.Guo_Resume.pdf)
@@ -67,12 +65,11 @@ along with descriptions about and informations on HCI, schools were a degree in 
 offered, and possible careers and salaries after obtaining a HCI degree.
 	```
 
-#### Team Projects (Sites)
-	- [Glance](http://ritaccess.github.io/Glance-data-analyzer/)
-		```
-	Worked in a programming and researching team for a sonification based project using 
-	JavaScript, HTML, PHP, and CSS.
-		```
+- [Glance](http://ritaccess.github.io/Glance-data-analyzer/)
+	```
+Worked in a programming and researching team for a sonification based project using 
+JavaScript, HTML, PHP, and CSS.
+	```
 
 
 ### Java Programs
@@ -82,13 +79,12 @@ offered, and possible careers and salaries after obtaining a HCI degree.
 Created a program that was designed to give the user a hard time, such as existing, 
 using Java graphical user interface (GUI).
 	```
-	
-#### Java: Team Projects
-	- [Halma](https://github.com/ObaoziO/baozi/tree/master/projects/rit/iste121/Halma-CatAndDog)
-		```
-	A board game programmed in Java GUI. To win: get all of the cats/dogs on your side to 
-	the opponent's side.
-		```
+
+- [Halma](https://github.com/ObaoziO/baozi/tree/master/projects/rit/iste121/Halma-CatAndDog)
+	```
+A board game programmed in Java GUI. To win: get all of the cats/dogs on your side to 
+the opponent's side.
+	```
 
 
 
