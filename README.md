@@ -7,7 +7,7 @@ An about me, Yuqing (Jeanie) Guo, page. The website includes information such as
 - [Resume](#resume)
 - [Projects](#projects)
 	- [Websites](#websites)
-		- [Team Projects](#sites:-team-projects)
+		- [Team Projects](#team-projects-\(sites\))
 	- [Java Programs](#java-programs)
 		- [Team Projects](#java:-team-projects)
 
@@ -67,7 +67,7 @@ along with descriptions about and informations on HCI, schools were a degree in 
 offered, and possible careers and salaries after obtaining a HCI degree.
 	```
 
-- Sites: Team Projects
+- Team Projects (Sites)
 	- [Glance](http://ritaccess.github.io/Glance-data-analyzer/)
 		```
 	Worked in a programming and researching team for a sonification based project using 
