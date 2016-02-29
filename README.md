@@ -67,7 +67,7 @@ along with descriptions about and informations on HCI, schools were a degree in 
 offered, and possible careers and salaries after obtaining a HCI degree.
 	```
 
-- Team Projects (Sites)
+#### Team Projects (Sites)
 	- [Glance](http://ritaccess.github.io/Glance-data-analyzer/)
 		```
 	Worked in a programming and researching team for a sonification based project using 
@@ -83,7 +83,7 @@ Created a program that was designed to give the user a hard time, such as existi
 using Java graphical user interface (GUI).
 	```
 	
-- Java: Team Projects
+#### Java: Team Projects
 	- [Halma](https://github.com/ObaoziO/baozi/tree/master/projects/rit/iste121/Halma-CatAndDog)
 		```
 	A board game programmed in Java GUI. To win: get all of the cats/dogs on your side to 
