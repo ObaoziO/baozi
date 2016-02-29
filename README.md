@@ -7,9 +7,9 @@ An about me, Yuqing (Jeanie) Guo, page. The website includes information such as
 - [Resume](#resume)
 - [Projects](#projects)
 	- [Websites](#websites)
-		- [Team Projects](#team-projects-\(sites\))
+		- [Team Projects](#team-projects-(sites\))
 	- [Java Programs](#java-programs)
-		- [Team Projects](#team-projects-\(java\))
+		- [Team Projects](#team-projects-(java\))
 
 
 ## [Resume](http://obaozio.github.io/baozi/pdf/Y.Guo_Resume.pdf)
