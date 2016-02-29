@@ -7,6 +7,7 @@ An about me, Yuqing (Jeanie) Guo, page. The website includes information such as
 - [Resume](#resume)
 - [Projects](#projects)
 	- [Websites](#websites)
+	- [Java Programs](#java-programs)
 
 
 ## [Resume](http://obaozio.github.io/baozi/pdf/Y.Guo_Resume.pdf)
@@ -59,6 +60,17 @@ bedrooms offered, the yoga spaces, the massage rooms, etc. HTML, CSS, Javascript
 PHP include were used.
 	```
 	
+- [Glance](http://ritaccess.github.io/Glance-data-analyzer/)
+	```
+Worked in a programming and researching team for a sonification based project using 
+JavaScript, HTML, PHP, and CSS.
+	```
+
+- [Human-Computer Interaction](http://obaozio.github.io/baozi/projects/rit/iste105/stage3/index.html)
+ 
+
+### Java Programs
+	
 - [Cat and Dog](https://github.com/ObaoziO/baozi/tree/master/projects/rit/iste121/GUI-CatAndDog)
 	```
 Created a program that was designed to give the user a hard time, such as existing, 
@@ -70,15 +82,6 @@ using Java graphical user interface (GUI).
 A board game programmed in Java GUI. To win: get all of the cats/dogs on your side to 
 the opponent's side.
 	```
-
-- [Glance](http://ritaccess.github.io/Glance-data-analyzer/)
-	```
-Worked in a programming and researching team for a sonification based project using 
-JavaScript, HTML, PHP, and CSS.
-	```
-
-- [Human-Computer Interaction](http://obaozio.github.io/baozi/projects/rit/iste105/stage3/index.html)
- 
 
 
 
