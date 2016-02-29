@@ -66,7 +66,9 @@ JavaScript, HTML, PHP, and CSS.
 
 - [Human-Computer Interaction (HCI)](http://obaozio.github.io/baozi/projects/rit/iste105/stage3/index.html)
 	```
-One of the first websites I have developed. It contains YouTube videos regarding HCI, along with descriptions about and informations on HCI, schools were a degree in HCI is offered, and possible careers and salaries after obtaining a HCI degree.
+One of the first websites I have developed. It contains YouTube videos regarding HCI, 
+along with descriptions about and informations on HCI, schools were a degree in HCI is 
+offered, and possible careers and salaries after obtaining a HCI degree.
 	```
 
 
