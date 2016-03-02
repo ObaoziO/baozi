@@ -1,4 +1,4 @@
-﻿//Accelerometer content area on the page
+//Accelerometer content area on the page
       var ac;
       //Define an options object which tells the app to check the
       //accelerometer every half second
