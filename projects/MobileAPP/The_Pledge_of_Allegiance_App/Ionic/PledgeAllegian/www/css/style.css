@@ -1,0 +1,35 @@
+/* Yuqing Guo - The Pledge of Allegiance CSS */
+/*body{
+  width: 100%;
+}*/
+.bar-stable{
+  background-color: #0052A5 !important;
+}
+ion-header-bar h1{
+  color: #fff !important;
+}
+/*ion-content{
+  background-color: #E0162B;
+}*/
+#content{
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #fff;
+  padding: 5%;
+  /*font-weight: bold;*/
+  border: 10px double #E0162B;
+  border-radius: 5px;
+}
+#content{
+  margin-top: 2%;
+}
+.title{
+  font-family: 'Rochester', cursive;
+  font-size: 25pt;
+}
+p{
+  font-family: 'Lateef';
+  font-size: 25pt;
+  line-height: 150%;
+}
